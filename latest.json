@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0-beta.1",
+  "notes": "Première version publique. Défilement de la bibliothèque, lecture live du tube 3D, retour instantané à la liste, frames orientables. Voir les notes complètes dans la release.",
+  "pub_date": "2026-07-25T10:14:54.918Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINmRqYkQ4U1pCTWVPUnFqbWZxc1RVWnhqZkJLMTNuVEp4MUxvd1dxZExKaWFXekJReEYrc0J5SlhWTGpPalRsaUcrdnhnQlFGSWJPcWtkeDluRTNabUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTc0NDYzCWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKeitDSTZpS2RlOGgyZGE0WEt0dE5IdytMMXlKT2tLNWJoU2RJMnJWelNnZ0U0OGVhSk55TU5iM1ZxVjRjZUdMdEhPOTRQcWY1S21HVmRjOHY4WFhhQkE9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.1/LIGHTFORMCOLOR-Studio-1.0.0-beta.1-aarch64.app.tar.gz"
+    }
+  }
+}
