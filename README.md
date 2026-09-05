@@ -24,7 +24,8 @@ Ces trois guides sont joints à chaque release, et lisibles directement ici :
 
 ## Installation
 
-La dernière préversion publiée est **`1.0.0-beta.8`**.
+La dernière préversion publiée est **`1.0.0-beta.8`**. La `beta.9` corrige les
+compositions vidéo sur macOS ; elle est en cours de réception.
 
 1. Ouvrir **[Releases](../../releases)** et choisir `v1.0.0-beta.8`.
 2. Vérifier l'artefact téléchargé avec `SHA256SUMS.txt`.

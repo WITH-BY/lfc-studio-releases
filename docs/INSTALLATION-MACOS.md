@@ -1,6 +1,6 @@
 # Installer LIGHTFORMCOLOR Studio sur macOS
 
-**Préversion `1.0.0-beta.8`.** Cette bêta n'est pas signée Developer ID ni
+**Préversion `1.0.0-beta.9`.** Cette bêta n'est pas signée Developer ID ni
 notarisée par Apple : macOS refuse volontairement de l'ouvrir au premier
 double-clic. Les étapes ci-dessous sont la marche à suivre normale pour une
 bêta, pas un contournement de sécurité.
@@ -21,8 +21,8 @@ doit indiquer Apple M1, M2, M3, M4 ou ultérieur.
 ## 1. Télécharger
 
 1. Ouvrir la [page des releases](https://github.com/WITH-BY/lfc-studio-releases/releases).
-2. Choisir **`v1.0.0-beta.8`**.
-3. Télécharger `LIGHTFORMCOLOR-Studio_1.0.0-beta.8_aarch64.dmg`.
+2. Choisir **`v1.0.0-beta.9`**.
+3. Télécharger `LIGHTFORMCOLOR-Studio_1.0.0-beta.9_aarch64.dmg`.
 
 ## 2. Vérifier l'empreinte (recommandé)
 
@@ -30,7 +30,7 @@ Le fichier `SHA256SUMS.txt` de la release contient l'empreinte de chaque
 artefact. Dans le Terminal :
 
 ```bash
-shasum -a 256 ~/Downloads/LIGHTFORMCOLOR-Studio_1.0.0-beta.8_aarch64.dmg
+shasum -a 256 ~/Downloads/LIGHTFORMCOLOR-Studio_1.0.0-beta.9_aarch64.dmg
 ```
 
 La valeur affichée doit être identique à celle publiée. Si elle diffère,

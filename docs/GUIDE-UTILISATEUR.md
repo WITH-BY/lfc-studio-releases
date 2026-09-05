@@ -1,6 +1,6 @@
 # Guide d'utilisation — LIGHTFORMCOLOR Studio
 
-**Préversion `1.0.0-beta.8`.** Ce guide décrit ce que le Studio fait
+**Préversion `1.0.0-beta.9`.** Ce guide décrit ce que le Studio fait
 aujourd'hui. Ce qui n'est pas encore qualifié est signalé comme tel, à
 l'endroit où vous le rencontrerez.
 
