@@ -24,13 +24,18 @@ Ces trois guides sont joints à chaque release, et lisibles directement ici :
 
 ## Installation
 
-La dernière préversion publiée est **`1.0.0-beta.8`**. La `beta.9` corrige les
-compositions vidéo sur macOS ; elle est en cours de réception.
+La dernière préversion publiée est **`1.0.0-beta.9`**. Elle corrige un défaut
+qui rendait indiffusable, **sur macOS uniquement**, toute composition contenant
+une vidéo.
 
-1. Ouvrir **[Releases](../../releases)** et choisir `v1.0.0-beta.8`.
+1. Ouvrir **[Releases](../../releases)** et choisir la plus récente.
 2. Vérifier l'artefact téléchargé avec `SHA256SUMS.txt`.
 3. macOS : ouvrir `…-aarch64.dmg`, glisser l'application dans **Applications**.
-4. Windows : lancer `…-x64-setup.exe`, installé pour l'utilisateur courant.
+4. Windows : la `beta.9` ne fournit qu'un **zip portable**, compilé en croisé et
+   jamais exécuté sur Windows — décompresser le dossier entier et garder
+   `media-tools/` à côté de l'exécutable. Pour un véritable installateur, rester
+   sur l'`…-x64-setup.exe` de la [`beta.8`](../../releases/tag/v1.0.0-beta.8) :
+   le défaut corrigé ici ne touchait pas Windows.
 
 ### ⚠️ Premier lancement
 
