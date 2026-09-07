@@ -1,122 +1,75 @@
-# Installer LIGHTFORMCOLOR Studio sur macOS
-
-**Préversion `1.0.0-beta.10`.** Cette bêta n'est pas signée Developer ID ni
-notarisée par Apple : macOS refuse volontairement de l'ouvrir au premier
-double-clic. Les étapes ci-dessous sont la marche à suivre normale pour une
-bêta, pas un contournement de sécurité.
+# Installer LIGHTFORMCOLOR Studio sur Mac
 
 ## Ce qu'il vous faut
 
-- un Mac **Apple Silicon** (puce M1 ou ultérieure) ;
-- **macOS 11 Big Sur** ou plus récent ;
-- environ **300 Mo** d'espace disque ;
-- le même réseau Wi-Fi ou Ethernet que vos LFC Tube.
+Un Mac avec une puce Apple (M1 ou plus récent), macOS 11 Big Sur ou une version
+ultérieure, et environ 300 Mo d'espace libre.
 
-Il n'existe **pas** de paquet pour Mac Intel. Sur un Mac Intel, l'application ne
-s'installe pas : les outils vidéo embarqués sont compilés pour Apple Silicon.
+Pour vérifier : menu Pomme, **À propos de ce Mac**. La ligne « Puce » doit
+indiquer Apple M1, M2, M3, M4 ou plus récent. Le Studio ne s'installe pas sur un
+Mac Intel.
 
-Pour vérifier votre Mac : menu  → **À propos de ce Mac**. La ligne « Puce »
-doit indiquer Apple M1, M2, M3, M4 ou ultérieur.
+## Télécharger
 
-## 1. Télécharger
+Ouvrez la [page des téléchargements](https://github.com/WITH-BY/lfc-studio-releases/releases),
+prenez la version la plus récente et téléchargez le fichier qui se termine par
+`.dmg`.
 
-1. Ouvrir la [page des releases](https://github.com/WITH-BY/lfc-studio-releases/releases).
-2. Choisir **`v1.0.0-beta.10`**.
-3. Télécharger `LIGHTFORMCOLOR-Studio_1.0.0-beta.10_aarch64.dmg`.
+## Installer
 
-## 2. Vérifier l'empreinte (recommandé)
+Double-cliquez le fichier téléchargé, puis glissez **LIGHTFORMCOLOR Studio** sur
+le raccourci **Applications**. Vous pouvez ensuite éjecter le disque qui s'est
+monté.
 
-Le fichier `SHA256SUMS.txt` de la release contient l'empreinte de chaque
-artefact. Dans le Terminal :
+## Premier lancement
 
-```bash
-shasum -a 256 ~/Downloads/LIGHTFORMCOLOR-Studio_1.0.0-beta.10_aarch64.dmg
-```
+macOS refuse d'ouvrir le Studio du premier coup. C'est normal : l'application
+n'est pas encore enregistrée auprès d'Apple. Voici comment l'autoriser, une
+seule fois.
 
-La valeur affichée doit être identique à celle publiée. Si elle diffère,
-n'installez pas : retéléchargez, puis signalez l'écart.
+1. Dans **Applications**, double-cliquez **LIGHTFORMCOLOR Studio**. Un message
+   apparaît, cliquez **OK**.
+2. Ouvrez **Réglages Système**, puis **Confidentialité et sécurité**.
+3. Descendez jusqu'à la section **Sécurité**. Une ligne mentionne
+   LIGHTFORMCOLOR Studio.
+4. Cliquez **Ouvrir quand même**, puis confirmez avec Touch ID ou votre mot de
+   passe.
 
-## 3. Installer
+L'application s'ouvre. Les fois suivantes, un simple double-clic suffit.
 
-1. Double-cliquer le DMG.
-2. Glisser **LIGHTFORMCOLOR Studio** sur le raccourci **Applications**.
-3. Éjecter le disque monté (clic droit sur son icône → **Éjecter**).
+## Autoriser le réseau local
 
-## 4. Premier lancement — l'étape qui bloque
+Au premier démarrage, macOS vous demande si le Studio peut accéder aux appareils
+de votre réseau local. **Répondez Autoriser.**
 
-Au premier double-clic, macOS affiche un refus. Le message dépend de la version
-du système : « développeur non identifié », « impossible de vérifier
-l'absence de logiciel malveillant », ou « l'application est endommagée ».
+Sans cette autorisation, le Studio ne trouve aucun écran et la page Appareils
+reste vide. C'est la cause la plus fréquente d'un parc vide.
 
-**Marche à suivre :**
+Si vous avez refusé par erreur : **Réglages Système**, **Confidentialité et
+sécurité**, **Réseau local**. Activez l'interrupteur en face de LIGHTFORMCOLOR
+Studio, puis relancez l'application.
 
-1. Double-cliquer **LIGHTFORMCOLOR Studio** dans **Applications**. Le refus
-   s'affiche : cliquer **OK** ou **Terminé**.
-2. Ouvrir **Réglages Système** → **Confidentialité et sécurité**.
-3. Descendre jusqu'à la section **Sécurité**. Une ligne mentionne
-   « LIGHTFORMCOLOR Studio a été bloqué ».
-4. Cliquer **Ouvrir quand même**, puis confirmer avec Touch ID ou le mot de
-   passe de votre session.
-5. L'application s'ouvre. Les lancements suivants sont directs.
+## Mettre à jour
 
-Le clic droit → **Ouvrir** fonctionne encore sur les anciennes versions de
-macOS ; à partir de macOS 15 Sequoia, il faut passer par Réglages Système.
+Le Studio vous prévient quand une nouvelle version est disponible et
+l'installe pour vous.
 
-Si le message persiste après cette manipulation, l'attribut de quarantaine peut
-être retiré explicitement :
+Si vous venez d'une version antérieure à la 1.0.0-beta.10, faites cette
+mise à jour une dernière fois à la main, en téléchargeant le nouveau fichier et
+en remplaçant l'application. Les suivantes seront automatiques.
 
-```bash
-xattr -d com.apple.quarantine "/Applications/LIGHTFORMCOLOR Studio.app"
-```
-
-Ne lancez cette commande qu'après avoir vérifié l'empreinte SHA-256 de l'étape 2.
-Elle désactive un contrôle de sécurité : elle n'a de sens que si vous savez que
-le fichier est bien celui publié.
-
-## 5. Autoriser le réseau local
-
-Au premier démarrage, macOS demande l'autorisation d'accéder aux appareils du
-réseau local. **Répondez Autoriser** : sans elle, le Studio ne découvre aucun
-LFC Tube et la page Appareils reste vide.
-
-Si vous avez refusé par erreur : **Réglages Système** → **Confidentialité et
-sécurité** → **Réseau local**, puis activez l'interrupteur en face de
-LIGHTFORMCOLOR Studio et relancez l'application.
+Vos contenus, vos appareils et votre planning sont conservés.
 
 ## Désinstaller
 
-Glisser **LIGHTFORMCOLOR Studio** de **Applications** vers la corbeille.
+Glissez **LIGHTFORMCOLOR Studio** depuis **Applications** vers la corbeille.
 
-Les projets et réglages restent dans ces deux dossiers, à supprimer séparément
-si vous voulez repartir de zéro :
+Vos projets et vos réglages ne sont pas supprimés avec l'application. Si vous
+voulez repartir de zéro, utilisez **Effacer les données locales** dans les
+Réglages du Studio avant de le désinstaller.
 
-```
-~/Library/Application Support/com.withby.lightformcolor.studio
-~/Library/Caches/LIGHTFORMCOLOR Studio
-```
+## Une question, un problème
 
-Les codes d'accès des appareils sont conservés dans le trousseau macOS, jamais
-dans ces dossiers ni dans un projet exporté.
-
-## Mise à jour
-
-La mise à jour automatique **n'est pas active** dans cette bêta : aucun canal
-signé n'est publié, et l'écran Réglages l'indique explicitement. Pour passer à
-une bêta suivante, téléchargez son DMG et remplacez l'application. Vos contenus,
-appareils et plannings sont conservés.
-
-## Limites connues de cette bêta
-
-- signature ad hoc, sans notarisation Apple : le refus au premier lancement est
-  attendu et se reproduira à chaque nouvelle bêta ;
-- Apple Silicon uniquement ;
-- aucune mise à jour automatique ;
-- l'onglet **Live** est une démonstration tant que le firmware n'est pas
-  qualifié ;
-- l'assistance à distance des Réglages n'est reliée à aucune infrastructure.
-
-## En cas de problème
-
-Ouvrir une [issue](https://github.com/WITH-BY/lfc-studio-releases/issues) en
-indiquant la version de macOS, le modèle de Mac, la version du Studio et le
-message exact affiché.
+Écrivez-nous depuis les
+[questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues),
+en indiquant votre version de macOS et le message exact que vous voyez.

@@ -1,116 +1,70 @@
 # Installer LIGHTFORMCOLOR Studio sur Windows
 
-**Préversion `1.0.0-beta.10`.** Cette bêta n'est pas signée Authenticode :
-Windows SmartScreen affiche un avertissement au lancement de l'installateur.
-Les étapes ci-dessous sont la marche à suivre normale pour une bêta, pas un
-contournement de sécurité.
-
 ## Ce qu'il vous faut
 
-- **Windows 10 version 1809** ou plus récent, **64 bits** ;
-- environ **400 Mo** d'espace disque ;
-- le même réseau Wi-Fi ou Ethernet que vos LFC Tube ;
-- une connexion Internet au premier lancement de l'installateur, si
-  **Microsoft Edge WebView2** n'est pas déjà présent (il l'est sur toute
-  installation de Windows 11 et sur la plupart des Windows 10 à jour).
+Windows 10 version 1809 ou plus récent, en 64 bits, et environ 400 Mo d'espace
+libre.
 
-Il n'existe **pas** de paquet Windows ARM64.
+Pour vérifier : **Paramètres**, **Système**, **Informations système**. La ligne
+« Type du système » doit indiquer un système d'exploitation 64 bits avec un
+processeur x64.
 
-Pour vérifier votre PC : **Paramètres** → **Système** → **Informations
-système**. « Type du système » doit indiquer *Système d'exploitation 64 bits,
-processeur x64*.
+## Télécharger
 
-## 1. Télécharger
+Ouvrez la [page des téléchargements](https://github.com/WITH-BY/lfc-studio-releases/releases)
+et prenez la dernière version qui propose un fichier Windows.
 
-1. Ouvrir la [page des releases](https://github.com/WITH-BY/lfc-studio-releases/releases).
-2. Choisir **`v1.0.0-beta.10`**.
-3. Télécharger `LIGHTFORMCOLOR-Studio-1.0.0-beta.10-x64-setup.exe`.
+Votre navigateur peut signaler un fichier « rarement téléchargé ». Choisissez
+**Conserver** pour terminer.
 
-Le navigateur peut lui-même signaler un exécutable « rarement téléchargé ».
-Choisir **Conserver** pour terminer le téléchargement.
+## Installer
 
-## 2. Vérifier l'empreinte (recommandé)
+Double-cliquez le fichier téléchargé.
 
-Le fichier `SHA256SUMS.txt` de la release contient l'empreinte de chaque
-artefact. Dans PowerShell :
+Windows affiche **« Windows a protégé votre ordinateur »**. C'est normal :
+l'application n'est pas encore enregistrée auprès de Microsoft. Cliquez
+**Informations complémentaires**, puis **Exécuter quand même**.
 
-```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\LIGHTFORMCOLOR-Studio-1.0.0-beta.10-x64-setup.exe" -Algorithm SHA256
-```
+Choisissez ensuite la langue de l'installation et suivez l'assistant.
 
-La valeur affichée doit être identique à celle publiée. Si elle diffère,
-n'installez pas : retéléchargez, puis signalez l'écart.
+L'installation ne demande pas de droits administrateur : elle se fait pour votre
+compte uniquement.
 
-## 3. Installer — l'étape qui bloque
+Si Microsoft Edge WebView2 n'est pas encore présent sur votre PC, l'installateur
+le télécharge et l'installe. Cette étape demande une connexion Internet et peut
+durer une minute.
 
-1. Double-cliquer l'installateur.
-2. SmartScreen affiche **« Windows a protégé votre ordinateur »**.
-3. Cliquer **Informations complémentaires**.
-4. Vérifier que l'éditeur affiché est bien le fichier attendu, puis cliquer
-   **Exécuter quand même**.
-5. Choisir la langue de l'installateur (français ou anglais).
-6. Suivre l'assistant jusqu'au bout.
+## Autoriser le réseau local
 
-L'installation se fait **pour l'utilisateur courant uniquement** : elle ne
-demande pas de droits administrateur et n'écrit rien dans `Program Files`.
-L'application est installée sous :
-
-```
-%LOCALAPPDATA%\LIGHTFORMCOLOR Studio
-```
-
-Si WebView2 est absent, l'installateur le télécharge et l'installe
-silencieusement. Cette étape demande Internet et peut durer une minute.
-
-## 4. Autoriser le réseau local
-
-Au premier démarrage, Windows affiche l'alerte du pare-feu **« Voulez-vous
-autoriser les communications… »**.
+Au premier démarrage, Windows affiche une alerte du pare-feu.
 
 **Cochez au moins « Réseaux privés »**, puis **Autoriser l'accès**. Sans cette
-autorisation, le Studio ne découvre aucun LFC Tube et la page Appareils reste
-vide.
+autorisation, le Studio ne trouve aucun écran et la page Appareils reste vide.
+C'est la cause la plus fréquente d'un parc vide.
 
-Si vous avez refusé par erreur : **Paramètres** → **Confidentialité et
-sécurité** → **Sécurité Windows** → **Pare-feu et protection du réseau** →
-**Autoriser une application via le pare-feu**, puis cochez LIGHTFORMCOLOR Studio
-en réseau privé et relancez l'application.
+Si vous avez refusé par erreur : **Paramètres**, **Confidentialité et sécurité**,
+**Sécurité Windows**, **Pare-feu et protection du réseau**, puis **Autoriser une
+application via le pare-feu**. Cochez LIGHTFORMCOLOR Studio en réseau privé et
+relancez l'application.
+
+## Mettre à jour
+
+Téléchargez la nouvelle version et relancez l'installateur par-dessus. Vos
+contenus, vos appareils et votre planning sont conservés.
+
+La mise à jour automatique existe déjà sur Mac. Elle arrive sur Windows.
 
 ## Désinstaller
 
-**Paramètres** → **Applications** → **Applications installées** →
-**LIGHTFORMCOLOR Studio** → **Désinstaller**.
+**Paramètres**, **Applications**, **Applications installées**, puis
+**LIGHTFORMCOLOR Studio** et **Désinstaller**.
 
-Les projets et réglages restent dans ces deux dossiers, à supprimer séparément
-si vous voulez repartir de zéro :
+Vos projets et vos réglages ne sont pas supprimés avec l'application. Si vous
+voulez repartir de zéro, utilisez **Effacer les données locales** dans les
+Réglages du Studio avant de le désinstaller.
 
-```
-%APPDATA%\com.withby.lightformcolor.studio
-%LOCALAPPDATA%\LIGHTFORMCOLOR Studio\cache
-```
+## Une question, un problème
 
-Les codes d'accès des appareils sont conservés dans le gestionnaire
-d'identifiants Windows, jamais dans ces dossiers ni dans un projet exporté.
-
-## Mise à jour
-
-La mise à jour automatique **n'est pas active** dans cette bêta : aucun canal
-signé n'est publié, et l'écran Réglages l'indique explicitement. Pour passer à
-une bêta suivante, téléchargez son installateur et relancez-le par-dessus.
-Vos contenus, appareils et plannings sont conservés.
-
-## Limites connues de cette bêta
-
-- installateur non signé Authenticode : l'avertissement SmartScreen est attendu
-  et se reproduira à chaque nouvelle bêta ;
-- x64 uniquement, pas de paquet ARM64 ;
-- aucune mise à jour automatique ;
-- l'onglet **Live** est une démonstration tant que le firmware n'est pas
-  qualifié ;
-- l'assistance à distance des Réglages n'est reliée à aucune infrastructure.
-
-## En cas de problème
-
-Ouvrir une [issue](https://github.com/WITH-BY/lfc-studio-releases/issues) en
-indiquant la version de Windows, la version du Studio et le message exact
-affiché.
+Écrivez-nous depuis les
+[questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues),
+en indiquant votre version de Windows et le message exact que vous voyez.
