@@ -1,62 +1,49 @@
 # LIGHTFORMCOLOR Studio
 
-Le logiciel qui pilote vos écrans LFC, sur Mac et sur Windows.
+Logiciel de pilotage des écrans LFC, pour macOS et Windows.
 
-Vous composez vos images et vos vidéos, vous choisissez quel écran affiche quoi
-et à quelle heure, le Studio se charge du reste.
+Préparation des images et vidéos, composition sur une ou plusieurs surfaces,
+diffusion et programmation.
 
-## Installer
+## Installation
 
-**[Télécharger la dernière version](../../releases)**
+**[Télécharger](../../releases)** la version la plus récente, en haut de la
+liste.
 
-Prenez la version en haut de la liste.
+- [Installation sur macOS](docs/INSTALLATION-MACOS.md)
+- [Installation sur Windows](docs/INSTALLATION-WINDOWS.md)
 
-Puis suivez le guide correspondant à votre ordinateur :
+Les deux systèmes bloquent l'ouverture au premier lancement, l'application
+n'étant pas encore enregistrée auprès d'Apple ni de Microsoft. Les guides
+indiquent la procédure d'autorisation.
 
-- **[Installer sur Mac](docs/INSTALLATION-MACOS.md)**
-- **[Installer sur Windows](docs/INSTALLATION-WINDOWS.md)**
+Les deux demandent également une autorisation d'accès au réseau local, sans
+laquelle aucun écran n'est détecté.
 
-Les deux systèmes affichent un avertissement au premier lancement, parce que
-l'application n'est pas encore enregistrée auprès d'Apple ni de Microsoft. Les
-guides expliquent comment l'autoriser, en une fois.
+## Documentation
 
-Les deux vous demandent aussi l'autorisation d'accéder à votre réseau local.
-Acceptez : sans elle, le Studio ne trouve aucun écran.
-
-## Utiliser
-
-**[Guide d'utilisation](docs/GUIDE-UTILISATEUR.md)**
-
-Ajouter un appareil, importer vos contenus, composer sur plusieurs écrans,
-diffuser et programmer.
-
-## La suite
-
-**[Ce qui arrive](docs/A-VENIR.md)**
-
-La gamme, le catalogue d'applications, les intégrations professionnelles et la
-gestion de plusieurs lieux.
+- [Guide d'utilisation](docs/GUIDE-UTILISATEUR.md)
+- [Feuille de route](docs/A-VENIR.md)
 
 ## Compatibilité
 
-Mac avec puce Apple, macOS 11 ou plus récent.
-Windows 10 version 1809 ou plus récent, en 64 bits.
+macOS 11 ou ultérieur, Mac à puce Apple.
+Windows 10 version 1809 ou ultérieur, 64 bits.
 
-## Où en est le produit
+## État du produit
 
-LIGHTFORMCOLOR Studio est en préversion. Il fonctionne et il est utilisé, mais
-nous continuons de le recetter et nous l'affinons version après version.
+LIGHTFORMCOLOR Studio est en préversion. Les fonctions publiées sont
+opérationnelles ; la qualification matérielle et l'ergonomie sont en cours
+d'affinage.
 
-Nous annonçons une fonction quand nous l'avons vue marcher, pas avant. Quand
-quelque chose n'est pas encore prêt, le Studio vous le dit à l'endroit où vous
-le rencontrez.
+Les fonctions sont annoncées après vérification. Ce qui n'est pas encore
+qualifié est signalé dans l'application, à l'endroit concerné.
 
-## Une question, un retour
+## Assistance
 
-**[Questions et retours](../../issues)**
+[Questions et retours](../../issues).
 
-Vos remarques orientent nos priorités. Dites-nous ce que vous faites, ce qui
-vous manque et ce qui vous ferait gagner du temps.
+Les priorités de développement tiennent compte des retours reçus.
 
 ---
 

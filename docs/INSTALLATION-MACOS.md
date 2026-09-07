@@ -1,75 +1,65 @@
-# Installer LIGHTFORMCOLOR Studio sur Mac
+# Installation sur macOS
 
-## Ce qu'il vous faut
+## Configuration requise
 
-Un Mac avec une puce Apple (M1 ou plus récent), macOS 11 Big Sur ou une version
-ultérieure, et environ 300 Mo d'espace libre.
+Mac équipé d'une puce Apple, M1 ou ultérieure. macOS 11 Big Sur ou version
+ultérieure. 300 Mo d'espace disque.
 
 Pour vérifier : menu Pomme, **À propos de ce Mac**. La ligne « Puce » doit
-indiquer Apple M1, M2, M3, M4 ou plus récent. Le Studio ne s'installe pas sur un
-Mac Intel.
+indiquer Apple M1, M2, M3, M4 ou ultérieur. Le Studio n'est pas compatible avec
+les Mac Intel.
 
-## Télécharger
+## Téléchargement
 
-Ouvrez la [page des téléchargements](https://github.com/WITH-BY/lfc-studio-releases/releases),
-prenez la version la plus récente et téléchargez le fichier qui se termine par
-`.dmg`.
+Ouvrez la [page des versions](https://github.com/WITH-BY/lfc-studio-releases/releases),
+sélectionnez la version la plus récente et téléchargez le fichier `.dmg`.
 
-## Installer
+## Installation
 
-Double-cliquez le fichier téléchargé, puis glissez **LIGHTFORMCOLOR Studio** sur
-le raccourci **Applications**. Vous pouvez ensuite éjecter le disque qui s'est
-monté.
+Ouvrez le fichier téléchargé et glissez **LIGHTFORMCOLOR Studio** sur le
+raccourci **Applications**. Le volume monté peut ensuite être éjecté.
 
 ## Premier lancement
 
-macOS refuse d'ouvrir le Studio du premier coup. C'est normal : l'application
-n'est pas encore enregistrée auprès d'Apple. Voici comment l'autoriser, une
-seule fois.
+macOS bloque l'ouverture au premier lancement, l'application n'étant pas encore
+enregistrée auprès d'Apple. L'autorisation se donne une seule fois.
 
-1. Dans **Applications**, double-cliquez **LIGHTFORMCOLOR Studio**. Un message
-   apparaît, cliquez **OK**.
+1. Dans **Applications**, ouvrez **LIGHTFORMCOLOR Studio**. Validez le message
+   affiché.
 2. Ouvrez **Réglages Système**, puis **Confidentialité et sécurité**.
-3. Descendez jusqu'à la section **Sécurité**. Une ligne mentionne
-   LIGHTFORMCOLOR Studio.
-4. Cliquez **Ouvrir quand même**, puis confirmez avec Touch ID ou votre mot de
-   passe.
+3. Dans la section **Sécurité**, une ligne mentionne LIGHTFORMCOLOR Studio.
+4. Cliquez **Ouvrir quand même** et confirmez.
 
-L'application s'ouvre. Les fois suivantes, un simple double-clic suffit.
+Les lancements suivants sont directs.
 
-## Autoriser le réseau local
+## Autorisation réseau
 
-Au premier démarrage, macOS vous demande si le Studio peut accéder aux appareils
-de votre réseau local. **Répondez Autoriser.**
+Au premier démarrage, macOS demande l'autorisation d'accéder aux appareils du
+réseau local. Cette autorisation est nécessaire : sans elle, le Studio ne
+détecte aucun écran.
 
-Sans cette autorisation, le Studio ne trouve aucun écran et la page Appareils
-reste vide. C'est la cause la plus fréquente d'un parc vide.
+Pour la rétablir : **Réglages Système**, **Confidentialité et sécurité**,
+**Réseau local**. Activez LIGHTFORMCOLOR Studio et relancez l'application.
 
-Si vous avez refusé par erreur : **Réglages Système**, **Confidentialité et
-sécurité**, **Réseau local**. Activez l'interrupteur en face de LIGHTFORMCOLOR
-Studio, puis relancez l'application.
+## Mises à jour
 
-## Mettre à jour
+Le Studio signale les nouvelles versions et les installe.
 
-Le Studio vous prévient quand une nouvelle version est disponible et
-l'installe pour vous.
+Si votre version est antérieure à la 1.0.0-beta.10, effectuez une dernière mise
+à jour manuelle en téléchargeant le nouveau fichier et en remplaçant
+l'application. Les suivantes seront automatiques.
 
-Si vous venez d'une version antérieure à la 1.0.0-beta.10, faites cette
-mise à jour une dernière fois à la main, en téléchargeant le nouveau fichier et
-en remplaçant l'application. Les suivantes seront automatiques.
+Les contenus, appareils et plannings sont conservés.
 
-Vos contenus, vos appareils et votre planning sont conservés.
+## Désinstallation
 
-## Désinstaller
+Placez **LIGHTFORMCOLOR Studio** dans la corbeille depuis **Applications**.
 
-Glissez **LIGHTFORMCOLOR Studio** depuis **Applications** vers la corbeille.
+Les projets et réglages ne sont pas supprimés. Pour les effacer, utilisez
+**Effacer les données locales** dans les Réglages du Studio avant
+désinstallation.
 
-Vos projets et vos réglages ne sont pas supprimés avec l'application. Si vous
-voulez repartir de zéro, utilisez **Effacer les données locales** dans les
-Réglages du Studio avant de le désinstaller.
+## Assistance
 
-## Une question, un problème
-
-Écrivez-nous depuis les
-[questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues),
-en indiquant votre version de macOS et le message exact que vous voyez.
+[Questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues).
+Indiquez votre version de macOS et le message affiché.

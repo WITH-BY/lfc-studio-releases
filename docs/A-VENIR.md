@@ -1,176 +1,114 @@
-# Ce qui arrive
+# Feuille de route
 
-LIGHTFORMCOLOR est en construction, et nous préférons vous dire où nous allons
-plutôt que de vous laisser le deviner. Cette page décrit ce que nous
-construisons. Elle ne décrit pas ce que vous avez aujourd'hui : pour cela,
-lisez le [guide d'utilisation](GUIDE-UTILISATEUR.md).
+Ce document décrit ce que nous développons. Il ne décrit pas les fonctions
+disponibles aujourd'hui, qui sont couvertes par le
+[guide d'utilisation](GUIDE-UTILISATEUR.md).
 
-Les grandes lignes ne bougeront pas. Les dates, si.
-
----
-
-## Une gamme, une seule façon de faire
-
-Le LFC Tube est notre premier produit. Il ne sera pas le seul.
-
-Un écran plat et un boîtier HDMI suivront, pour poser l'expérience LFC sur une
-surface que vous possédez déjà. D'autres formes viendront.
-
-Ce qui compte n'est pas la liste : c'est qu'ils se pilotent de la même façon.
-Un objet se présente par le nom que vous lui avez donné, la pièce où il se
-trouve et ce qu'il affiche. Vous ajoutez un produit, vos noms, vos droits et
-votre bibliothèque restent en place. Vous ne réapprenez rien.
+Les fonctions sont annoncées ici sans date. Nous les publions lorsqu'elles ont
+été vérifiées sur le matériel.
 
 ---
 
-## Une mise en service qui s'adapte à vous
+## Gamme
 
-Aujourd'hui vous rejoignez le réseau de l'appareil depuis votre ordinateur.
-Demain, trois chemins, selon ce que vous avez sous la main.
+Le LFC Tube est le premier produit de la gamme. Un écran plat et un boîtier
+HDMI sont en développement.
 
-**Avec un téléphone**, scannez le code affiché et suivez le rattachement.
+Tous se pilotent depuis les mêmes outils. Ajouter un produit conserve vos noms,
+vos droits d'accès et votre bibliothèque de contenus.
 
-**Avec un ordinateur**, comme aujourd'hui, en plus clair : le réseau temporaire
-et son mot de passe d'un côté, l'avancement de l'autre.
+## Mise en service
 
-**Si l'appareil est déjà connecté à Internet**, saisissez simplement le code
-qu'il affiche, dans le Studio ou depuis votre navigateur.
+Trois méthodes, selon l'équipement disponible.
 
-À chaque étape, vous verrez où vous en êtes : réseau rejoint, Internet
-disponible, appareil rattaché. Trois choses différentes, trois réponses
-distinctes. Aucune interface ne vous promettra une opération qu'elle ne peut
-pas faire.
+| Méthode | Usage |
+| --- | --- |
+| Téléphone | Scanner le code affiché par l'appareil |
+| Ordinateur | Rejoindre le réseau temporaire de l'appareil, puis ouvrir le Studio |
+| Code d'association | Saisir dans le Studio le code affiché par un appareil déjà connecté à Internet |
 
----
+L'interface distingue trois états : réseau rejoint, Internet disponible,
+appareil associé. Aucune opération n'est proposée avant que ses conditions
+soient réunies.
 
-## Vos écrans comme une seule installation
+## Gestion d'un parc
 
-Nommez une entrée, une vitrine, un comptoir, un salon. Groupez vos surfaces,
-enregistrez une ambiance, retrouvez-la depuis n'importe quel point de contrôle.
+Nommer les emplacements. Constituer des groupes d'appareils. Enregistrer une
+configuration d'affichage et la rappeler depuis n'importe quel poste.
 
-Un appareil hors ligne apparaît comme tel, et il ne bloque pas le reste.
+Un appareil hors ligne est signalé comme tel sans bloquer les autres. Le
+remplacement d'une unité restaure ses réglages.
 
-Le remplacement d'une unité retrouve ses réglages. Vous ne recommencez pas votre
-installation parce qu'un appareil a été changé.
+## Catalogue d'applications
 
----
+Installation d'applications sur un appareil : horloge, galerie, tableau
+d'informations, affichage de données.
 
-## Un catalogue d'applications
+Chaque application indique les données et les connexions qu'elle utilise. Un
+aperçu au format de votre écran est disponible avant installation. La
+désinstallation est sans effet sur le reste de la configuration. Une
+application défaillante laisse place au dernier affichage valide.
 
-Choisir une horloge, une galerie, un tableau d'informations ou un affichage de
-données devrait suffire à donner un nouvel usage à un écran.
+Le catalogue ne propose que les applications compatibles avec le modèle et la
+version de l'appareil.
 
-Un aperçu vous montrera le résultat dans votre format, avant d'installer. Les
-autorisations diront en clair quelles données et quelles connexions
-l'application utilise. Une application se retire sans dérégler le produit, et
-si une version se comporte mal, l'écran revient au dernier affichage sain.
+Sont également prévus un kit de développement et la possibilité, pour une
+organisation, de publier un catalogue interne.
 
-Le catalogue ne proposera que ce qui fonctionne réellement sur votre modèle.
+## Gestion des contenus
 
-Un kit pour développeurs suivra, ainsi que la possibilité, pour une entreprise,
-d'avoir son propre catalogue privé.
+**Fonctionnement autonome.** L'appareil poursuit son dernier programme valide
+en l'absence de connexion. Une donnée périmée est signalée plutôt qu'affichée.
 
----
+**Publication programmée**, avec retour à la version précédente.
 
-## Du contenu qui reste juste
+**Bibliothèque partagée** entre utilisateurs autorisés, avec validation avant
+diffusion lorsque l'organisation le requiert.
 
-**Une programmation qui tient toute seule.** Votre appareil continue avec son
-dernier programme valide quand Internet manque, et signale une donnée devenue
-trop ancienne plutôt que d'afficher une valeur fausse.
+**Rapport de diffusion** indiquant les contenus effectivement affichés et leurs
+horaires.
 
-**Publier à une heure choisie**, et revenir à la version précédente si le
-résultat ne convient pas.
+## Intégrations
 
-**Une bibliothèque partagée** entre les personnes autorisées, avec une
-validation avant diffusion quand votre organisation le demande.
+**Entrée HDMI** au format exact de l'écran, avec comportement défini en cas de
+perte puis de retour du signal.
 
-**Un rapport de lecture** pour savoir ce qui est réellement passé, et quand.
+**Protocoles professionnels :** NDI, Art-Net, sACN, OSC, MIDI, et affichage
+d'une page web. Chaque intégration est publiée avec ses prérequis, ses limites
+et son comportement en cas de perte de source. Certaines s'exécutent sur
+l'appareil, d'autres nécessitent le Studio.
 
----
+## Exploitation multi-sites
 
-## Des lieux, des usages
+Vue d'ensemble du parc limitée aux éléments demandant une action.
 
-**Une vitrine qui suit la journée.** Ouverture, déjeuner, soirée, jours de
-fermeture. Et, là où l'intégration existe, un lien avec votre caisse ou votre
-stock pour tenir les prix et les disponibilités à jour.
+Déploiement des mises à jour par lots, sur des plages de maintenance définies
+par l'exploitant.
 
-**Une maison qui garde son calme.** Vos photos, de l'art, l'heure, la météo,
-des plages de luminosité. Vos invités obtiennent un accès temporaire. Les
-automatisations locales continuent sans abonnement.
+Session d'assistance ouverte et révocable par le propriétaire.
 
-**Des espaces qui informent.** Disponibilité des salles dans un bureau, accueil
-multilingue dans un hôtel, parcours dans un musée. Les données du précédent
-usage disparaissent à la fin de la session.
+## Maîtrise du matériel
 
-**Un spectacle prêt à repartir.** Séquences chargées à l'avance, lancées depuis
-une commande simple, une régie ou un horaire. Vous voyez quels appareils sont
-prêts avant de partir. Si une source tombe, le repli que vous avez choisi
-s'applique.
+L'identité de l'appareil reste sur l'appareil. La réinitialisation complète, la
+préparation à la revente et la location temporaire sont prises en charge, avec
+suppression vérifiée des données de la session précédente.
 
-**Du matériel qui se loue.** Le loueur reste propriétaire. Le locataire obtient
-ses droits pour la durée du contrat. À la restitution, ses données et ses accès
-sont effacés, avec confirmation.
-
----
-
-## Les outils que vous avez déjà
-
-L'entrée HDMI, au ratio exact de votre écran, avec un comportement défini quand
-le signal disparaît puis revient.
-
-Pour les installations professionnelles : NDI, Art-Net, sACN, OSC, MIDI, et une
-page web affichée en direct. Chacune arrivera avec sa fiche : ce qu'elle
-demande, ce qu'elle sait faire, et ce qui se passe quand la source est perdue.
-Certaines tourneront sur l'appareil, d'autres demanderont le Studio.
-
-Nous préférons annoncer une intégration avec ses limites plutôt qu'une
-compatibilité vague.
+Une mise à jour interrompue reprend. Un appareil qui ne démarre plus est
+récupérable.
 
 ---
 
-## Plusieurs lieux, sans se déplacer
+## État d'avancement
 
-Une vue de parc qui sert à décider : ce qui va bien, ce qui demande une action,
-et rien d'autre.
+Le LFC Tube est fonctionnel et pilotable depuis le Studio. La qualification
+matérielle est en cours : rendu sur les dalles, mise en service, reprise après
+coupure, mise à jour.
 
-Des mises à jour par vagues, sur des plages de maintenance que vous fixez.
+Suivent la production des premières unités, puis les groupes et configurations
+d'affichage de gamme, puis les premières applications.
 
-Une session d'assistance que vous ouvrez, et que vous refermez quand vous
-voulez. Notre support voit alors ce que vous voyez.
+## Nous transmettre une demande
 
----
-
-## Votre matériel reste le vôtre
-
-C'est le principe qui guide le reste.
-
-L'identité de l'appareil reste sur l'appareil. Une remise à zéro complète est
-possible. Une revente se prépare proprement, sans laisser vos données derrière
-vous.
-
-Une mise à jour interrompue reprend. Un appareil qui ne démarre plus se
-récupère.
-
-Vous gardez la main, y compris contre nous.
-
----
-
-## Où nous en sommes
-
-Le LFC Tube fonctionne et se pilote depuis le Studio. Nous terminons
-actuellement la réception du matériel : ce qui s'affiche sur les dalles, la mise
-en service, la reprise après coupure, la mise à jour.
-
-Ensuite viennent les premières unités livrées, puis les groupes, les scènes de
-gamme et les premières applications.
-
-Nous avançons dans cet ordre, sans annoncer une fonction avant de l'avoir vue
-marcher.
-
----
-
-## Vous voulez peser sur la suite
-
-Vos retours servent directement à cet ordre de priorité. Écrivez-nous depuis les
-[questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues) :
-ce que vous faites, ce qui vous manque, ce qui vous ferait gagner du temps.
+Les priorités de développement tiennent compte des retours reçus. Écrivez-nous
+depuis les
+[questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues).

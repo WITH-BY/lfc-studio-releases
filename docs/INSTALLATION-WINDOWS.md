@@ -1,70 +1,64 @@
-# Installer LIGHTFORMCOLOR Studio sur Windows
+# Installation sur Windows
 
-## Ce qu'il vous faut
+## Configuration requise
 
-Windows 10 version 1809 ou plus récent, en 64 bits, et environ 400 Mo d'espace
-libre.
+Windows 10 version 1809 ou ultérieure, 64 bits. 400 Mo d'espace disque.
 
 Pour vérifier : **Paramètres**, **Système**, **Informations système**. La ligne
-« Type du système » doit indiquer un système d'exploitation 64 bits avec un
-processeur x64.
+« Type du système » doit indiquer un système 64 bits avec processeur x64.
 
-## Télécharger
+## Téléchargement
 
-Ouvrez la [page des téléchargements](https://github.com/WITH-BY/lfc-studio-releases/releases)
-et prenez la dernière version qui propose un fichier Windows.
+Ouvrez la [page des versions](https://github.com/WITH-BY/lfc-studio-releases/releases)
+et sélectionnez la version la plus récente proposant un fichier Windows.
 
-Votre navigateur peut signaler un fichier « rarement téléchargé ». Choisissez
-**Conserver** pour terminer.
+Le navigateur peut signaler un fichier rarement téléchargé. Choisissez
+**Conserver**.
 
-## Installer
+## Installation
 
-Double-cliquez le fichier téléchargé.
+Ouvrez le fichier téléchargé.
 
-Windows affiche **« Windows a protégé votre ordinateur »**. C'est normal :
-l'application n'est pas encore enregistrée auprès de Microsoft. Cliquez
-**Informations complémentaires**, puis **Exécuter quand même**.
+Windows affiche **« Windows a protégé votre ordinateur »**, l'application n'étant
+pas encore enregistrée auprès de Microsoft. Cliquez **Informations
+complémentaires**, puis **Exécuter quand même**.
 
-Choisissez ensuite la langue de l'installation et suivez l'assistant.
+Sélectionnez la langue d'installation et suivez l'assistant. L'installation
+s'effectue pour votre compte utilisateur et ne requiert pas de droits
+administrateur.
 
-L'installation ne demande pas de droits administrateur : elle se fait pour votre
-compte uniquement.
+Si Microsoft Edge WebView2 est absent, l'installateur le télécharge. Cette étape
+nécessite une connexion Internet.
 
-Si Microsoft Edge WebView2 n'est pas encore présent sur votre PC, l'installateur
-le télécharge et l'installe. Cette étape demande une connexion Internet et peut
-durer une minute.
+## Autorisation réseau
 
-## Autoriser le réseau local
+Au premier démarrage, le pare-feu Windows demande une autorisation. Cochez au
+moins **Réseaux privés**, puis **Autoriser l'accès**. Cette autorisation est
+nécessaire : sans elle, le Studio ne détecte aucun écran.
 
-Au premier démarrage, Windows affiche une alerte du pare-feu.
+Pour la rétablir : **Paramètres**, **Confidentialité et sécurité**, **Sécurité
+Windows**, **Pare-feu et protection du réseau**, **Autoriser une application via
+le pare-feu**. Activez LIGHTFORMCOLOR Studio en réseau privé et relancez
+l'application.
 
-**Cochez au moins « Réseaux privés »**, puis **Autoriser l'accès**. Sans cette
-autorisation, le Studio ne trouve aucun écran et la page Appareils reste vide.
-C'est la cause la plus fréquente d'un parc vide.
+## Mises à jour
 
-Si vous avez refusé par erreur : **Paramètres**, **Confidentialité et sécurité**,
-**Sécurité Windows**, **Pare-feu et protection du réseau**, puis **Autoriser une
-application via le pare-feu**. Cochez LIGHTFORMCOLOR Studio en réseau privé et
-relancez l'application.
+Téléchargez la nouvelle version et exécutez l'installateur. Les contenus,
+appareils et plannings sont conservés.
 
-## Mettre à jour
+La mise à jour automatique est disponible sur macOS. Elle est en cours de
+développement pour Windows.
 
-Téléchargez la nouvelle version et relancez l'installateur par-dessus. Vos
-contenus, vos appareils et votre planning sont conservés.
+## Désinstallation
 
-La mise à jour automatique existe déjà sur Mac. Elle arrive sur Windows.
+**Paramètres**, **Applications**, **Applications installées**,
+**LIGHTFORMCOLOR Studio**, **Désinstaller**.
 
-## Désinstaller
+Les projets et réglages ne sont pas supprimés. Pour les effacer, utilisez
+**Effacer les données locales** dans les Réglages du Studio avant
+désinstallation.
 
-**Paramètres**, **Applications**, **Applications installées**, puis
-**LIGHTFORMCOLOR Studio** et **Désinstaller**.
+## Assistance
 
-Vos projets et vos réglages ne sont pas supprimés avec l'application. Si vous
-voulez repartir de zéro, utilisez **Effacer les données locales** dans les
-Réglages du Studio avant de le désinstaller.
-
-## Une question, un problème
-
-Écrivez-nous depuis les
-[questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues),
-en indiquant votre version de Windows et le message exact que vous voyez.
+[Questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues).
+Indiquez votre version de Windows et le message affiché.
