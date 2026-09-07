@@ -1,64 +1,41 @@
-# Installation sur Windows
+# Installer LIGHTFORMCOLOR Studio sur Windows
 
-## Configuration requise
+## Vérifier votre ordinateur
 
-Windows 10 version 1809 ou ultérieure, 64 bits. 400 Mo d'espace disque.
+La version Windows vise un **processeur x64** et Windows 10 version 1809 ou ultérieure, dont Windows 11. Dans **Paramètres → Système → Informations système**, vérifiez le **Type du système**. Aucun paquet Windows ARM64 natif n’est fourni.
 
-Pour vérifier : **Paramètres**, **Système**, **Informations système**. La ligne
-« Type du système » doit indiquer un système 64 bits avec processeur x64.
+Prévoyez au moins **400 Mo** pour l’application, plus de l’espace pour vos médias et leurs rendus. Une connexion Internet peut être nécessaire pendant l’installation de Microsoft Edge WebView2.
 
-## Téléchargement
+## Télécharger sans connaître GitHub
 
-Ouvrez la [page des versions](https://github.com/WITH-BY/lfc-studio-releases/releases)
-et sélectionnez la version la plus récente proposant un fichier Windows.
+1. Ouvrez la [page de téléchargement](https://github.com/WITH-BY/lfc-studio-releases#telecharger).
+2. Cliquez sur le téléchargement **Windows x64**.
+3. Retrouvez dans **Téléchargements** un fichier ressemblant à **LIGHTFORMCOLOR-Studio-1.0.0-beta.14-x64-setup.exe**. Le numéro peut différer selon la version publiée.
 
-Le navigateur peut signaler un fichier rarement téléchargé. Choisissez
-**Conserver**.
+Vous n’avez pas besoin d’un compte GitHub pour télécharger les fichiers publics. Si vous parcourez la [liste des versions](https://github.com/WITH-BY/lfc-studio-releases/releases), choisissez la plus récente qui propose un installateur Windows, puis ouvrez **Assets** pour afficher les fichiers. Certaines versions ne proposent qu’un paquet Mac.
 
-## Installation
+Choisissez **x64-setup.exe**. Les fichiers **Source code**, **.zip**, **.sig** et **SHA256SUMS** ne sont pas l’installateur à ouvrir.
 
-Ouvrez le fichier téléchargé.
+## Installer
 
-Windows affiche **« Windows a protégé votre ordinateur »**, l'application n'étant
-pas encore enregistrée auprès de Microsoft. Cliquez **Informations
-complémentaires**, puis **Exécuter quand même**.
+Double-cliquez sur **x64-setup.exe**. Choisissez la langue et suivez l’assistant. L’application s’installe pour votre compte utilisateur.
 
-Sélectionnez la langue d'installation et suivez l'assistant. L'installation
-s'effectue pour votre compte utilisateur et ne requiert pas de droits
-administrateur.
+Les préversions sans certificat Authenticode peuvent être signalées comme peu connues. Si vous avez téléchargé le fichier depuis la page WITH-BY ci-dessus, le navigateur peut demander **Conserver**. Dans l’écran **Windows a protégé votre ordinateur**, l’option **Informations complémentaires → Exécuter quand même** permet de poursuivre. Un poste géré par votre organisation peut demander l’intervention de son administrateur.
 
-Si Microsoft Edge WebView2 est absent, l'installateur le télécharge. Cette étape
-nécessite une connexion Internet.
+Si **Microsoft Edge WebView2** manque, l’installateur le télécharge : gardez l’accès à Internet pendant cette étape. Ouvrez ensuite **LIGHTFORMCOLOR Studio** depuis le menu Démarrer.
 
-## Autorisation réseau
+## Connecter votre premier appareil
 
-Au premier démarrage, le pare-feu Windows demande une autorisation. Cochez au
-moins **Réseaux privés**, puis **Autoriser l'accès**. Cette autorisation est
-nécessaire : sans elle, le Studio ne détecte aucun écran.
+Si le pare-feu le demande, autorisez LIGHTFORMCOLOR Studio sur votre **réseau privé de confiance**. Le Studio doit pouvoir communiquer avec les appareils du même réseau.
 
-Pour la rétablir : **Paramètres**, **Confidentialité et sécurité**, **Sécurité
-Windows**, **Pare-feu et protection du réseau**, **Autoriser une application via
-le pare-feu**. Activez LIGHTFORMCOLOR Studio en réseau privé et relancez
-l'application.
+Suivez ensuite **[Votre première utilisation](PREMIERS-PAS.md)**. La connexion directe au Tube peut afficher **« Pas d’Internet »** : c’est normal après l’installation.
 
-## Mises à jour
+Si le Tube n’est pas trouvé, vérifiez le réseau sélectionné et les autorisations dans **Sécurité Windows → Pare-feu et protection du réseau → Autoriser une application via le pare-feu**.
 
-Téléchargez la nouvelle version et exécutez l'installateur. Les contenus,
-appareils et plannings sont conservés.
+## Mettre à jour ou désinstaller
 
-La mise à jour automatique est disponible sur macOS. Elle est en cours de
-développement pour Windows.
+Pour une mise à jour manuelle, quittez le Studio et exécutez le nouvel installateur. Les appareils, créations et plannings restent sur cet ordinateur. Les Réglages proposent une mise à jour intégrée uniquement lorsqu’un paquet signé correspondant est disponible.
 
-## Désinstallation
+Pour désinstaller : **Paramètres → Applications → Applications installées → LIGHTFORMCOLOR Studio → Désinstaller**. Vos médias et données de travail sont conservés. Les identifiants de secours du Gestionnaire d’identification ne sont pas transférés vers un autre ordinateur.
 
-**Paramètres**, **Applications**, **Applications installées**,
-**LIGHTFORMCOLOR Studio**, **Désinstaller**.
-
-Les projets et réglages ne sont pas supprimés. Pour les effacer, utilisez
-**Effacer les données locales** dans les Réglages du Studio avant
-désinstallation.
-
-## Assistance
-
-[Questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues).
-Indiquez votre version de Windows et le message affiché.
+**Étape suivante : [première connexion et première image](PREMIERS-PAS.md).**

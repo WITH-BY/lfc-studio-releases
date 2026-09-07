@@ -7,6 +7,8 @@ Installation : [macOS](INSTALLATION-MACOS.md), [Windows](INSTALLATION-WINDOWS.md
 
 ---
 
+Commencez par **[Votre première utilisation](PREMIERS-PAS.md)** pour configurer le Wi-Fi de secours et découvrir le tutoriel. Ce guide décrit la candidate **1.0.0-beta.14** ; les versions précédentes peuvent différer.
+
 ## Organisation de l'application
 
 Vous composez dans le Studio, vous indiquez quel écran reçoit quoi, le Studio
@@ -17,7 +19,7 @@ effectue le redimensionnement, la conversion vidéo, l'envoi et la lecture.
 | Accueil | État des appareils, allumage et extinction, application des changements en attente |
 | Contenus | Import des images et vidéos, création des compositions, classement |
 | Planning | Programmation par jour et par horaire, plages d'extinction |
-| Live | Déclenchement de séquences préparées |
+| Live | Démonstration de séquences préparées ; pilotage réel désactivé |
 | Appareils | Ajout, dénomination, regroupement |
 | Réglages | Langue, thème, sauvegarde |
 
@@ -46,7 +48,7 @@ d'installation. C'est la cause la plus fréquente.
 
 S'il s'agit d'un premier démarrage, l'appareil n'est raccordé à aucun réseau et
 diffuse le sien. Son nom et son mot de passe s'affichent sur l'appareil au
-premier allumage, et à ce moment seulement. Notez-les. Rejoignez ce réseau
+premier allumage. Notez-les. Rejoignez ce réseau
 depuis les réglages Wi-Fi de votre ordinateur, puis revenez dans le Studio.
 L'absence d'accès Internet sur ce réseau est normale.
 
@@ -58,20 +60,13 @@ système et n'est jamais inclus dans un projet exporté.
 
 ### Accès de secours
 
-Chaque appareil diffuse en permanence son propre réseau, y compris une fois
-raccordé au vôtre. Ce réseau permet de reprendre la main si votre installation
-change.
+Pendant la première installation, le Studio vérifie d’abord la liaison au réseau local, en Wi-Fi ou par Ethernet. Une liaison déjà établie est validée sans nouvelle configuration. Ensuite, le nom choisi pour le Tube devient son nom Wi-Fi : **Salon → LFC-Salon**. Vous créez un nouveau mot de passe et vérifiez la connexion avant de poursuivre. Le Studio maintient le point d’accès actif quand le Tube rejoint ou oublie son réseau habituel.
 
-La section **Accès de secours**, dans l'onglet Appareils, affiche le nom et la
-clé de ce réseau, et permet de les modifier. Le Studio relit l'appareil pour
-confirmer chaque modification.
+Dans **Appareils → Accès de secours**, retrouvez le nom et le mot de passe mémorisés, **même hors ligne**. L’œil révèle la clé. Les identifiants restent dans le coffre sécurisé du compte utilisateur de cet ordinateur ; ils ne sont pas exportés dans les projets ni les sauvegardes.
 
-Modifiez la clé d'usine : elle n'est affichée qu'au premier allumage et elle est
-identique sur tous les appareils. La clé en place reste consultable dans cette
-section, tant que l'appareil est joignable.
+Vous pouvez modifier ces réglages lorsque le Tube est joignable. Si le changement coupe la connexion avant sa confirmation, le Studio conserve le dernier accès vérifié et la nouvelle proposition. Rejoignez le réseau indiqué depuis le menu Wi-Fi de l’ordinateur, puis relisez l’appareil pour confirmer. Le [parcours illustré par les étapes](PREMIERS-PAS.md#3-choisir-son-nom-et-son-accès-de-secours) détaille cette reprise.
 
-Un changement d'adresse réseau, après un redémarrage de votre routeur par
-exemple, est traité automatiquement. Aucune intervention n'est requise.
+Si l’adresse de l’appareil change, le Studio vérifie sa nouvelle adresse. Un appareil protégé peut demander une confirmation avant de réutiliser un accès mémorisé.
 
 ### Groupes
 
@@ -159,6 +154,12 @@ d'une heure.
 **Tube 3D** présente le rendu sur le luminaire. **LED** présente la matrice à
 plat, pour vérifier la lisibilité.
 
+### Vidéos
+
+Une vidéo à 60 images/s reste à 60 images/s pendant la conversion et dans une composition, y compris avec un texte ou une image superposés. La cadence 59,94 est également conservée. Une composition mêlant plusieurs cadences utilise la plus élevée de ses vidéos ; les sources dépassant 60 images/s sont refusées explicitement.
+
+L’aperçu de l’éditeur peut atteindre 60 images/s selon l’écran et les performances de l’ordinateur. Les petites vignettes de navigation peuvent être moins fluides. La cadence du fichier vidéo et le rafraîchissement électrique des LED sont deux mesures différentes ; le rendu sur l’appareil reste à contrôler.
+
 ### Versions
 
 **Dupliquer et modifier** conserve la version en cours et ouvre une copie. Les
@@ -171,8 +172,8 @@ fichiers ne sont pas dupliqués sur le disque.
 Le bouton **Diffuser** est accessible depuis l'Accueil et depuis un contenu.
 
 1. **Appareils.** Un écran éteint mais joignable est rallumé.
-   **Synchroniser la lecture** aligne le démarrage sur tous les appareils
-   sélectionnés.
+   **Synchroniser la lecture** coordonne le démarrage des appareils
+   sélectionnés ; une synchronisation visuelle précise dépend aussi du matériel.
 2. **Playlist.** Sélectionnez les contenus dans l'ordre voulu. La liste est lue
    en boucle.
 3. **Durée.** Sans limite, jusqu'au prochain événement du planning, ou jusqu'à
@@ -205,15 +206,7 @@ maintenant** les met à jour dès qu'ils répondent.
 
 ## Live
 
-L'onglet **Live** prépare des séquences chargées à l'avance sur plusieurs
-appareils, déclenchées au moment voulu.
-
-Cette fonction est en cours de qualification. Le déclenchement est coordonné par
-le réseau, sans garantie de simultanéité au centième de seconde. Elle n'est pas
-encore recommandée pour la régie d'un événement.
-
-Un appareil réservé au Live refuse les diffusions manuelles tant que son
-planning n'a pas été restauré depuis cet onglet.
+Le Live est disponible **uniquement en mode démonstration** pendant la qualification du pilotage réel. Il permet d’explorer l’organisation de séquences ; il ne commande aucun appareil réel.
 
 ---
 
@@ -232,6 +225,8 @@ disque.
 ## Réglages
 
 Langue française ou anglaise. Thème clair, sombre ou selon le système.
+
+**Découvrir le Studio** relance la visite guidée en démo. Vous retrouvez votre espace réel à sa fermeture.
 
 **Stockage** indique l'espace occupé par les données et les fichiers temporaires,
 et permet de supprimer ces derniers.

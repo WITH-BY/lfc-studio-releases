@@ -1,65 +1,49 @@
-# Installation sur macOS
+# Installer LIGHTFORMCOLOR Studio sur Mac
 
-## Configuration requise
+## Choisir le bon téléchargement
 
-Mac équipé d'une puce Apple, M1 ou ultérieure. macOS 11 Big Sur ou version
-ultérieure. 300 Mo d'espace disque.
+Dans **Pomme → À propos de ce Mac**, regardez la ligne **Puce** ou **Processeur**. [Aide Apple](https://support.apple.com/fr-fr/116943).
 
-Pour vérifier : menu Pomme, **À propos de ce Mac**. La ligne « Puce » doit
-indiquer Apple M1, M2, M3, M4 ou ultérieur. Le Studio n'est pas compatible avec
-les Mac Intel.
+| Votre Mac | Fichier à choisir |
+| --- | --- |
+| Puce Apple M1, M2, M3, M4 ou suivante | **Mac-Apple-Silicon.dmg**, ou un nom contenant **aarch64** |
+| Processeur Intel | **Mac-Intel.dmg**, ou un nom contenant **x64** et se terminant par **.dmg** |
 
-## Téléchargement
+La beta.13 propose les deux téléchargements, Apple Silicon et Intel. Choisissez celui qui correspond à votre Mac. Le parcours de première utilisation décrit dans les guides accompagne la candidate beta.14.
 
-Ouvrez la [page des versions](https://github.com/WITH-BY/lfc-studio-releases/releases),
-sélectionnez la version la plus récente et téléchargez le fichier `.dmg`.
+La configuration de l’application demande macOS 11 ou ultérieur. Prévoyez au moins 400 Mo pour l’application, plus de l’espace pour vos vidéos et leurs rendus. La compatibilité du paquet exact est indiquée dans ses notes de version.
 
-## Installation
+## Télécharger sans connaître GitHub
 
-Ouvrez le fichier téléchargé et glissez **LIGHTFORMCOLOR Studio** sur le
-raccourci **Applications**. Le volume monté peut ensuite être éjecté.
+1. Ouvrez la [page de téléchargement](https://github.com/WITH-BY/lfc-studio-releases#telecharger).
+2. Choisissez votre type de Mac. Dans la [liste des versions](https://github.com/WITH-BY/lfc-studio-releases/releases), ouvrez une version qui propose votre architecture.
+3. Sous **Assets**, cliquez sur le fichier **.dmg** correspondant. Assets signifie simplement « fichiers à télécharger ».
+4. Retrouvez-le dans le dossier **Téléchargements** de votre Mac.
 
-## Premier lancement
+Vous n’avez pas besoin d’un compte GitHub pour télécharger les fichiers publics. Les fichiers **Source code**, **.app.tar.gz**, **.sig** et **SHA256SUMS** ne sont pas l’installateur à ouvrir.
 
-macOS bloque l'ouverture au premier lancement, l'application n'étant pas encore
-enregistrée auprès d'Apple. L'autorisation se donne une seule fois.
+## Installer et ouvrir
 
-1. Dans **Applications**, ouvrez **LIGHTFORMCOLOR Studio**. Validez le message
-   affiché.
-2. Ouvrez **Réglages Système**, puis **Confidentialité et sécurité**.
-3. Dans la section **Sécurité**, une ligne mentionne LIGHTFORMCOLOR Studio.
-4. Cliquez **Ouvrir quand même** et confirmez.
+Double-cliquez sur le **.dmg**. Glissez **LIGHTFORMCOLOR Studio** vers **Applications**. Éjectez ensuite le disque LIGHTFORMCOLOR Studio et ouvrez l’application depuis **Applications**.
 
-Les lancements suivants sont directs.
+Les préversions signées ad hoc peuvent déclencher l’avertissement de macOS sur le développeur. Si vous avez téléchargé le paquet depuis la page WITH-BY ci-dessus :
 
-## Autorisation réseau
+1. Essayez d’ouvrir l’application une première fois.
+2. Ouvrez **Réglages Système → Confidentialité et sécurité**.
+3. Repérez LIGHTFORMCOLOR Studio et choisissez **Ouvrir quand même**, puis confirmez.
 
-Au premier démarrage, macOS demande l'autorisation d'accéder aux appareils du
-réseau local. Cette autorisation est nécessaire : sans elle, le Studio ne
-détecte aucun écran.
+Les intitulés varient selon macOS. Suivez la [procédure Apple](https://support.apple.com/fr-fr/guide/mac-help/mh40616/mac) si l’option n’apparaît pas. Une alerte indiquant un logiciel malveillant ou un fichier endommagé demande un nouveau téléchargement et un contact avec l’assistance.
 
-Pour la rétablir : **Réglages Système**, **Confidentialité et sécurité**,
-**Réseau local**. Activez LIGHTFORMCOLOR Studio et relancez l'application.
+## Connecter votre premier appareil
 
-## Mises à jour
+Autorisez l’accès au **réseau local** quand macOS le demande. Sur les versions qui proposent ce réglage, il se retrouve dans **Réglages Système → Confidentialité et sécurité → Réseau local**.
 
-Le Studio signale les nouvelles versions et les installe.
+Suivez ensuite **[Votre première utilisation](PREMIERS-PAS.md)** : connexion au Tube par son Wi-Fi ou par Ethernet, réseau habituel, nom, accès de secours et visite guidée.
 
-Si votre version est antérieure à la 1.0.0-beta.10, effectuez une dernière mise
-à jour manuelle en téléchargeant le nouveau fichier et en remplaçant
-l'application. Les suivantes seront automatiques.
+## Mettre à jour ou désinstaller
 
-Les contenus, appareils et plannings sont conservés.
+Pour une mise à jour manuelle, quittez le Studio, téléchargez le nouveau DMG de votre architecture et remplacez l’application dans **Applications**. Les données de travail restent sur votre ordinateur. Une mise à jour depuis les Réglages n’est proposée que lorsqu’une version signée est disponible pour votre architecture.
 
-## Désinstallation
+Pour désinstaller, placez l’application dans la corbeille. Vos médias et données ne sont pas supprimés. Les identifiants de secours conservés dans le Trousseau ne sont pas transférés vers un autre Mac.
 
-Placez **LIGHTFORMCOLOR Studio** dans la corbeille depuis **Applications**.
-
-Les projets et réglages ne sont pas supprimés. Pour les effacer, utilisez
-**Effacer les données locales** dans les Réglages du Studio avant
-désinstallation.
-
-## Assistance
-
-[Questions et retours](https://github.com/WITH-BY/lfc-studio-releases/issues).
-Indiquez votre version de macOS et le message affiché.
+**Étape suivante : [première connexion et première image](PREMIERS-PAS.md).**
