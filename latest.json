@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0-beta.11",
-  "notes": "Correction du changement de mot de passe du réseau de secours, qui était confirmé sans être appliqué à l'appareil.\n\nLe mot de passe du réseau de secours est désormais consultable depuis la fiche de l'appareil.\n\nCorrection de l'alignement des champs dans la section Accès de secours.\n\nDocumentation d'installation et d'utilisation entièrement revue.",
-  "pub_date": "2026-09-07T10:07:13.029Z",
+  "version": "1.0.0-beta.12",
+  "notes": "Correction du changement de mot de passe du réseau de secours de l'appareil, qui était refusé sans être appliqué.\n\nSi vous aviez tenté de le modifier avec une version précédente, l'appareil a conservé son mot de passe d'origine. Refaites l'opération depuis la fiche de l'appareil, où le mot de passe en place est désormais affiché.",
+  "pub_date": "2026-09-07T11:23:37.589Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlZna1VnVmxLUWs0YzRxK2RMMCtDU2NFTnBzMWNZVkx0Q0hMMjI2elk5cHBBUWNCMG1vQXBxOGJnNGdWY3BudVF2YiszUmtQYmxkWi9ONEtoK0F0N3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzc1NTQwCWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKcm1Wekh4TjhkZW5pQWE0K2tTL2dJV1pjR2xQY1h3UXNkdXp2ZUYranc4K2V6NWk3M1VHR0RuQUxRTlNCQUt6M1JWYWVOS2FWc0ZpTlpxaVFHU25ZRHc9PQo=",
-      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.11/LIGHTFORMCOLOR-Studio-1.0.0-beta.11-aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlJFWUdObUFpdjBraktRaFBzQlpRSXU1cGFMY2JKTitFY2hwS1lXN000NUxTWlkwUHVMZzJubXN4eHdUWEI5UjloVkVWRjhSeWJIS0xINHA4VFRGZWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzgwMDg5CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKZW1ia0FsUmFVclRldnY1UWI3c2N2VTg2MTI0YXBJcDkxVXNtckpRMDAzcHNFQ1F5VWVRZWExWno3SzFZekJpR0tMWm9CUjI3S3BzZ2k2MDYwUkJuREE9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.12/LIGHTFORMCOLOR-Studio_1.0.0-beta.12_aarch64.app.tar.gz"
     }
   }
 }
