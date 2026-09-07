@@ -48,7 +48,7 @@ d'installation. C'est la cause la plus fréquente.
 
 S'il s'agit d'un premier démarrage, l'appareil n'est raccordé à aucun réseau et
 diffuse le sien. Son nom et son mot de passe s'affichent sur l'appareil au
-premier allumage, et à ce moment seulement. Notez-les. Rejoignez ce réseau
+premier allumage. Notez-les. Rejoignez ce réseau
 depuis les réglages Wi-Fi de votre ordinateur, puis revenez dans le Studio.
 L'absence d'accès Internet sur ce réseau est normale.
 
@@ -60,11 +60,11 @@ système et n'est jamais inclus dans un projet exporté.
 
 ### Accès de secours
 
-Pendant la première installation, le nom choisi pour le Tube devient son nom Wi-Fi : **Salon → LFC-Salon**. Vous créez un nouveau mot de passe et vérifiez la connexion avant de poursuivre. Le Studio maintient le point d’accès actif quand le Tube rejoint ou oublie son réseau habituel.
+Pendant la première installation, le Studio vérifie d’abord la liaison au réseau local, en Wi-Fi ou par Ethernet. Une liaison déjà établie est validée sans nouvelle configuration. Ensuite, le nom choisi pour le Tube devient son nom Wi-Fi : **Salon → LFC-Salon**. Vous créez un nouveau mot de passe et vérifiez la connexion avant de poursuivre. Le Studio maintient le point d’accès actif quand le Tube rejoint ou oublie son réseau habituel.
 
 Dans **Appareils → Accès de secours**, retrouvez le nom et le mot de passe mémorisés, **même hors ligne**. L’œil révèle la clé. Les identifiants restent dans le coffre sécurisé du compte utilisateur de cet ordinateur ; ils ne sont pas exportés dans les projets ni les sauvegardes.
 
-Vous pouvez modifier ces réglages lorsque le Tube est joignable. Si le changement coupe la connexion avant sa confirmation, le Studio conserve le dernier accès vérifié et la nouvelle proposition. Rejoignez le réseau indiqué depuis le menu Wi-Fi de l’ordinateur, puis relisez l’appareil pour confirmer. Le [parcours illustré par les étapes](PREMIERS-PAS.md#2-choisir-son-nom-et-son-accès-de-secours) détaille cette reprise.
+Vous pouvez modifier ces réglages lorsque le Tube est joignable. Si le changement coupe la connexion avant sa confirmation, le Studio conserve le dernier accès vérifié et la nouvelle proposition. Rejoignez le réseau indiqué depuis le menu Wi-Fi de l’ordinateur, puis relisez l’appareil pour confirmer. Le [parcours illustré par les étapes](PREMIERS-PAS.md#3-choisir-son-nom-et-son-accès-de-secours) détaille cette reprise.
 
 Si l’adresse de l’appareil change, le Studio vérifie sa nouvelle adresse. Un appareil protégé peut demander une confirmation avant de réutiliser un accès mémorisé.
 
@@ -154,7 +154,7 @@ d'une heure.
 **Tube 3D** présente le rendu sur le luminaire. **LED** présente la matrice à
 plat, pour vérifier la lisibilité.
 
-### Vidéos à 60 images/s
+### Vidéos
 
 Une vidéo à 60 images/s reste à 60 images/s pendant la conversion et dans une composition, y compris avec un texte ou une image superposés. La cadence 59,94 est également conservée. Une composition mêlant plusieurs cadences utilise la plus élevée de ses vidéos ; les sources dépassant 60 images/s sont refusées explicitement.
 

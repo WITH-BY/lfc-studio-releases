@@ -28,7 +28,7 @@ Les liens **Source code**, les archives **.app.tar.gz**, les signatures **.sig**
 
 ## Démarrer avec votre premier appareil
 
-Le [guide des premiers pas](docs/PREMIERS-PAS.md) explique chaque étape : rejoindre le Wi-Fi du Tube, lui donner un nom, créer un nouveau mot de passe de secours, ajouter le réseau du lieu et lancer la visite guidée.
+Le [guide des premiers pas](docs/PREMIERS-PAS.md) explique chaque étape : rejoindre le Wi-Fi affiché sur l’écran du Tube ou utiliser Ethernet, vérifier le réseau du lieu, donner un nom, créer l’accès de secours et lancer la visite guidée.
 
 Exemple : un appareil nommé **Salon** crée le réseau **LFC-Salon**. Le Studio conserve ses identifiants de secours sur votre ordinateur. La connexion directe peut afficher **« Pas d’Internet »** : elle sert à parler à l’appareil.
 

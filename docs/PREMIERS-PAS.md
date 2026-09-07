@@ -2,37 +2,51 @@
 
 Ce guide accompagne le parcours de la **1.0.0-beta.13**. Les versions antérieures peuvent présenter des écrans différents. Installation : [Mac](INSTALLATION-MACOS.md) ou [Windows](INSTALLATION-WINDOWS.md).
 
-## 1. Relier l’ordinateur à l’appareil
+Le bouton **Retour**, en haut à gauche, permet de revenir aux étapes précédentes en conservant vos saisies. Il est temporairement indisponible pendant l’envoi d’un réglage à l’appareil.
 
-Allumez votre LFC Tube. Relevez le nom de son réseau Wi-Fi et le mot de passe fournis avec l’appareil ou affichés au premier allumage.
+## 1. Retrouver votre appareil
 
-Dans le menu Wi-Fi de votre ordinateur, sélectionnez ce réseau et saisissez ce mot de passe. Un message **« Pas d’Internet »** est normal : cette connexion sert à communiquer directement avec le Tube. Restez connecté, puis ouvrez LIGHTFORMCOLOR Studio.
+Allumez votre LFC Tube. **Son écran affiche le nom de son réseau Wi-Fi et son mot de passe.** Dans le menu Wi-Fi de votre ordinateur, sélectionnez exactement ce réseau et saisissez le mot de passe affiché. Un message **« Pas d’Internet »** est normal pour cette connexion directe.
 
-Choisissez **Configurer un LFC Tube**. Autorisez l’accès au réseau local si l’ordinateur le demande. Sélectionnez le Tube trouvé et utilisez son identification lumineuse pour vérifier que c’est le bon.
+**Vous ne trouvez pas ce Wi-Fi ?** Reliez le Tube à votre box ou à un switch avec un **câble Ethernet**. Connectez aussi l’ordinateur à ce même réseau, en Wi-Fi ou par câble. Ouvrez le Studio et cliquez sur **Relancer**.
 
-## 2. Choisir son nom et son accès de secours
+Choisissez **Configurer un LFC Tube**, autorisez l’accès au réseau local si l’ordinateur le demande, puis sélectionnez votre appareil. Utilisez **Allumer en bleu** et confirmez que c’est le bon Tube.
 
-Donnez un nom facile à reconnaître, par exemple **Salon**. Le réseau Wi-Fi de l’appareil s’appellera **LFC-Salon**. Le Studio affiche ce nom avant de l’appliquer.
+## 2. Relier le Tube à votre réseau habituel
 
-Créez ensuite un **nouveau mot de passe Wi-Fi**, puis saisissez-le une seconde fois. Choisissez au moins huit caractères, différents du mot de passe fourni au départ. Le Studio mémorise ces identifiants dans le coffre sécurisé de votre ordinateur.
+Le Studio commence par vérifier la connexion. **Si le Tube est déjà joignable sur le réseau local, la connexion est directement confirmée.** Cliquez sur **Continuer** : il n’est pas nécessaire de saisir à nouveau le Wi-Fi.
 
-Cliquez **Créer mon accès de secours**. Le Wi-Fi peut se déconnecter pendant cette modification :
+Si vous êtes connecté directement au Tube :
+
+1. Sélectionnez le Wi-Fi habituel du lieu et saisissez le mot de passe de ce réseau.
+2. Cliquez sur **Connecter l’appareil**.
+3. Dans le menu Wi-Fi de l’ordinateur, rejoignez ce même réseau. Si l’ordinateur y est relié par Ethernet, gardez son câble branché.
+4. Gardez le Studio ouvert. Il recherche automatiquement le Tube et confirme dès que l’ordinateur peut le joindre sur le réseau local.
+5. Cliquez sur **Continuer**.
+
+**Vérifier la connexion** relance uniquement la recherche ; ce bouton ne renvoie pas le mot de passe. Si le nom du réseau ou son mot de passe doit être corrigé, reconnectez l’ordinateur au Tube, puis utilisez **Modifier le réseau choisi**.
+
+Évitez les réseaux « invités » qui empêchent les appareils de communiquer entre eux. Pour une installation sans réseau du lieu, choisissez **Utiliser seulement la connexion directe** : l’étape suivante vous accompagnera lors du changement de Wi-Fi.
+
+## 3. Choisir son nom et son accès de secours
+
+Choisissez un nom facile à reconnaître, par exemple **Salon**. Son réseau de secours s’appellera **LFC-Salon**. Créez un nouveau mot de passe d’au moins huit caractères, différent de celui affiché sur l’appareil, puis confirmez-le.
+
+Cliquez sur **Créer mon accès de secours**. Le Studio conserve ces identifiants dans le coffre sécurisé de votre ordinateur.
+
+**Si vous êtes sur le réseau du lieu ou en Ethernet**, gardez cette connexion : le Studio configure et vérifie le Wi-Fi de secours depuis le réseau local.
+
+**Si vous avez choisi la connexion directe uniquement**, suivez les étapes affichées :
 
 1. Ouvrez le menu Wi-Fi de l’ordinateur.
-2. Rejoignez **LFC-Salon** avec votre nouveau mot de passe.
-3. Si l’ordinateur conserve l’ancien mot de passe, oubliez ce réseau dans ses réglages Wi-Fi, puis reconnectez-vous.
-4. Revenez au Studio et cliquez **Vérifier la connexion**.
-5. Après confirmation, cliquez **Continuer**.
+2. Rejoignez **LFC-Salon** avec le nouveau mot de passe que vous venez de choisir.
+3. Si l’ordinateur a conservé un ancien mot de passe pour ce nom, oubliez ce réseau dans ses réglages Wi-Fi, puis reconnectez-vous.
+4. Revenez au Studio. Il vérifie la connexion automatiquement ; vous pouvez aussi cliquer sur **Vérifier la connexion**.
+5. Après confirmation, cliquez sur **Continuer**.
 
-Si la modification reste en attente, les identifiants proposés restent mémorisés. Essayez d’abord de vous reconnecter et de vérifier. Le Studio conserve aussi le dernier mot de passe qu’il avait pu vérifier.
+Le Studio retrouve le Tube lorsque la connexion est disponible. **Le choix du réseau Wi-Fi de l’ordinateur se fait dans les réglages de macOS ou Windows.** Le Studio ne change pas ce réseau à votre place.
 
-## 3. Ajouter votre réseau habituel
-
-Le Studio propose les réseaux Wi-Fi à portée du Tube. Sélectionnez celui de votre lieu et saisissez **le mot de passe de ce réseau**. Vous pouvez aussi garder la connexion directe si elle suffit à votre usage.
-
-Après l’ajout, reconnectez également l’ordinateur à ce réseau habituel et attendez que le Studio retrouve le Tube. Évitez un réseau « invité » qui empêche les appareils de communiquer entre eux.
-
-Votre réseau **LFC-Salon reste activé**, même lorsque le Tube utilise votre box. Vous pourrez le rejoindre si la box disparaît ou si son mot de passe change.
+Si une modification reste en attente, les identifiants proposés restent mémorisés, ainsi que le dernier accès vérifié. Le réseau **LFC-Salon reste activé**, même quand le Tube utilise votre box.
 
 | Information | À quoi sert-elle ? | Où la retrouver ? |
 | --- | --- | --- |
@@ -40,7 +54,7 @@ Votre réseau **LFC-Salon reste activé**, même lorsque le Tube utilise votre b
 | Nom et mot de passe de votre box | Connexion au réseau habituel du lieu | Réglages de votre box ou auprès de son responsable |
 | Code de protection du Tube, si activé | Autoriser le pilotage depuis un autre ordinateur | Conservez le code choisi ; ce n’est pas un mot de passe Wi-Fi |
 
-Terminez les réglages de protection proposés par le Studio. Le code de protection et le mot de passe Wi-Fi sont deux informations distinctes.
+Terminez les réglages de protection proposés par le Studio.
 
 ## 4. Découvrir avant de diffuser
 

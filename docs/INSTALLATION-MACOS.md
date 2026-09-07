@@ -38,7 +38,7 @@ Les intitulés varient selon macOS. Suivez la [procédure Apple](https://support
 
 Autorisez l’accès au **réseau local** quand macOS le demande. Sur les versions qui proposent ce réglage, il se retrouve dans **Réglages Système → Confidentialité et sécurité → Réseau local**.
 
-Suivez ensuite **[Votre première utilisation](PREMIERS-PAS.md)** : connexion directe au Tube, nom, nouveau mot de passe de secours, réseau habituel et visite guidée.
+Suivez ensuite **[Votre première utilisation](PREMIERS-PAS.md)** : connexion au Tube par son Wi-Fi ou par Ethernet, réseau habituel, nom, accès de secours et visite guidée.
 
 ## Mettre à jour ou désinstaller
 
