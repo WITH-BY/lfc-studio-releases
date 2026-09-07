@@ -1,6 +1,6 @@
 # Installer LIGHTFORMCOLOR Studio sur Windows
 
-**Préversion `1.0.0-beta.9`.** Cette bêta n'est pas signée Authenticode :
+**Préversion `1.0.0-beta.10`.** Cette bêta n'est pas signée Authenticode :
 Windows SmartScreen affiche un avertissement au lancement de l'installateur.
 Les étapes ci-dessous sont la marche à suivre normale pour une bêta, pas un
 contournement de sécurité.
@@ -23,8 +23,8 @@ processeur x64*.
 ## 1. Télécharger
 
 1. Ouvrir la [page des releases](https://github.com/WITH-BY/lfc-studio-releases/releases).
-2. Choisir **`v1.0.0-beta.9`**.
-3. Télécharger `LIGHTFORMCOLOR-Studio-1.0.0-beta.9-x64-setup.exe`.
+2. Choisir **`v1.0.0-beta.10`**.
+3. Télécharger `LIGHTFORMCOLOR-Studio-1.0.0-beta.10-x64-setup.exe`.
 
 Le navigateur peut lui-même signaler un exécutable « rarement téléchargé ».
 Choisir **Conserver** pour terminer le téléchargement.
@@ -35,7 +35,7 @@ Le fichier `SHA256SUMS.txt` de la release contient l'empreinte de chaque
 artefact. Dans PowerShell :
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\LIGHTFORMCOLOR-Studio-1.0.0-beta.9-x64-setup.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\LIGHTFORMCOLOR-Studio-1.0.0-beta.10-x64-setup.exe" -Algorithm SHA256
 ```
 
 La valeur affichée doit être identique à celle publiée. Si elle diffère,

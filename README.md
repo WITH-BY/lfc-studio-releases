@@ -24,9 +24,9 @@ Ces trois guides sont joints à chaque release, et lisibles directement ici :
 
 ## Installation
 
-La dernière préversion publiée est **`1.0.0-beta.9`**. Elle corrige un défaut
-qui rendait indiffusable, **sur macOS uniquement**, toute composition contenant
-une vidéo.
+La dernière préversion publiée est **`1.0.0-beta.10`**. Elle empêche de perdre
+la main sur un appareil : adresse réseau suivie automatiquement, point d'accès
+de secours qui ne s'éteint jamais, et sa clé d'usine enfin changeable.
 
 1. Ouvrir **[Releases](../../releases)** et choisir la plus récente.
 2. Vérifier l'artefact téléchargé avec `SHA256SUMS.txt`.
@@ -61,15 +61,15 @@ SHA-256 puis signalez l'écart si le message persiste.
 
 ## Mises à jour
 
-La mise à jour automatique n'est **pas** le canal courant, sur aucun des deux
-systèmes. `latest.json` reste un feed historique : sa dernière entrée est
-`beta.7`, et `beta.8` ne publie **aucune** archive updater ni signature — le
-build manuel ne dispose pas de la clé privée. Installer donc les préversions
-manuellement depuis leur release exacte.
+**Le canal est actif depuis `beta.10`, sur macOS Apple Silicon seulement.**
+`latest.json` porte l'archive signée de cette version et pointe sur le tag
+exact. Les installations `beta.10` et suivantes se verront proposer les mises à
+jour macOS ; une installation antérieure, elle, ne connaît pas ce canal et doit
+être remplacée à la main une dernière fois.
 
-Une future activation exigera publication atomique de l'archive et de sa
-signature, feed publié en dernier, vérification par le client et rollback. Une
-présence de `latest.json` seule ne prouve pas un canal actif.
+Windows n'a pas de canal : la `beta.10` ne fournit aucun paquet Windows, et
+`latest.json` ne déclare donc aucune plateforme Windows plutôt que d'annoncer
+une mise à jour qui n'existe pas.
 
 ---
 
