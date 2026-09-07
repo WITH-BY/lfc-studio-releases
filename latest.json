@@ -1,11 +1,15 @@
 {
-  "version": "1.0.0-beta.12",
-  "notes": "Correction du changement de mot de passe du réseau de secours de l'appareil, qui était refusé sans être appliqué.\n\nSi vous aviez tenté de le modifier avec une version précédente, l'appareil a conservé son mot de passe d'origine. Refaites l'opération depuis la fiche de l'appareil, où le mot de passe en place est désormais affiché.",
-  "pub_date": "2026-09-07T11:23:37.589Z",
+  "version": "1.0.0-beta.13",
+  "notes": "Le point d'accès de secours de l'appareil reste actif lorsque celui-ci rejoint ou oublie un réseau Wi-Fi.\n\nCorrection du changement de nom et de clé du point d'accès, que l'appareil refusait sans l'appliquer.\n\nLe nom et la clé du point d'accès sont conservés sur cet ordinateur et restent consultables hors ligne.\n\nMise en route guidée à la première installation d'un appareil.\n\nVisite guidée du Studio, disponible après l'installation et depuis les Réglages.\n\nLes vidéos à 60 images par seconde conservent leur cadence à la conversion et dans les compositions.\n\nVersion Mac Intel disponible en plus de la version Mac Apple Silicon.",
+  "pub_date": "2026-09-07T14:45:05.549Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlJFWUdObUFpdjBraktRaFBzQlpRSXU1cGFMY2JKTitFY2hwS1lXN000NUxTWlkwUHVMZzJubXN4eHdUWEI5UjloVkVWRjhSeWJIS0xINHA4VFRGZWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzgwMDg5CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKZW1ia0FsUmFVclRldnY1UWI3c2N2VTg2MTI0YXBJcDkxVXNtckpRMDAzcHNFQ1F5VWVRZWExWno3SzFZekJpR0tMWm9CUjI3S3BzZ2k2MDYwUkJuREE9PQo=",
-      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.12/LIGHTFORMCOLOR-Studio_1.0.0-beta.12_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINmU2MERVMWZJanRTb29xR2t1NzlRQVMzY1l1ZTdzSzZOalp4RW5VMjR1MDM3UWpmNHJ6Z3AwUEh5eHBXZWhUWkhEWUNWNmt1VjlpTFBMVWF3SS9lU3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzkxMzQ1CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKd2VEVWYwK253T1R1aFdDOUhoZWlhaGZBSy9mRmg0K0JzWE4yWStSRFU2dm9HaDdlelB0VmFBWUp5UHFsTW0vK2tUSThQTzdBTEVLWDQrMXJ5L1ZFQ3c9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.13/LIGHTFORMCOLOR-Studio_1.0.0-beta.13_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlU4RUo4dE5IK3NhbnFsVDhDTDJIcWlsOFIvcW9kU2R2enNEanVSZVROVHZwNDlxNkZNcmRENlNkcDVNQ2tUVHdNdzdNd0w1UjNyZ1JtSjFrejBOVUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzkxOTcxCWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKVWdaMXJwU1plajZJM3Byak43SFZHSlpCQzJYSXFGM2ltL1A5a1Z6c1NqdHl0Z1ozUXBRQndrTForQ1BWZzl2M1V5STZsbS9lOEgvbmlHdjRQUGxERFE9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.13/LIGHTFORMCOLOR-Studio_1.0.0-beta.13_x64.app.tar.gz"
     }
   }
 }
