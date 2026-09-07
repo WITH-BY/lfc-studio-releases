@@ -7,12 +7,12 @@ Créez vos contenus pour les écrans LFC, prévisualisez-les, diffusez-les et pr
 <a id="telecharger"></a>
 ## Télécharger
 
-Les liens ci-dessous correspondent aux fichiers effectivement publiés, vérifiés le **7 septembre 2026**. Les guides de première utilisation décrivent le parcours de la candidate **beta.14**, en préparation. Les écrans des versions proposées ci-dessous peuvent différer.
+Les liens ci-dessous correspondent aux fichiers effectivement publiés, vérifiés le **7 septembre 2026**. Le parcours de première utilisation décrit dans les guides est disponible sur Mac en **beta.14**. Le paquet Windows proposé reste en beta.8 et présente des écrans différents.
 
 | Votre ordinateur | Téléchargement disponible | Installation |
 | --- | --- | --- |
-| Mac avec puce Apple M1 ou suivante | [Mac Apple Silicon — beta.13](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.13/LIGHTFORMCOLOR-Studio-1.0.0-beta.13-Mac-Apple-Silicon.dmg) | [Guide Mac](docs/INSTALLATION-MACOS.md) |
-| Mac avec processeur Intel | [Mac Intel — beta.13](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.13/LIGHTFORMCOLOR-Studio-1.0.0-beta.13-Mac-Intel.dmg) | [Identifier votre Mac](docs/INSTALLATION-MACOS.md#choisir-le-bon-téléchargement) |
+| Mac avec puce Apple M1 ou suivante | [Mac Apple Silicon — beta.14](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.14/LIGHTFORMCOLOR-Studio-1.0.0-beta.14-Mac-Apple-Silicon.dmg) | [Guide Mac](docs/INSTALLATION-MACOS.md) |
+| Mac avec processeur Intel | [Mac Intel — beta.14](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.14/LIGHTFORMCOLOR-Studio-1.0.0-beta.14-Mac-Intel.dmg) | [Identifier votre Mac](docs/INSTALLATION-MACOS.md#choisir-le-bon-téléchargement) |
 | Windows avec processeur x64 | [Windows x64 — beta.8](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.8/LIGHTFORMCOLOR-Studio-1.0.0-beta.8-x64-setup.exe) | [Guide Windows](docs/INSTALLATION-WINDOWS.md) |
 
 Vous pouvez télécharger ces fichiers **sans compte GitHub**. Ce site héberge simplement les téléchargements et les guides du Studio.
