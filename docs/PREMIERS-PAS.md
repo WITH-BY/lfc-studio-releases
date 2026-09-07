@@ -1,6 +1,6 @@
 # Votre première utilisation
 
-Ce guide accompagne le parcours de la **1.0.0-beta.13**. Les versions antérieures peuvent présenter des écrans différents. Installation : [Mac](INSTALLATION-MACOS.md) ou [Windows](INSTALLATION-WINDOWS.md).
+Ce guide accompagne le parcours de la **1.0.0-beta.14**. Les versions antérieures peuvent présenter des écrans différents. Installation : [Mac](INSTALLATION-MACOS.md) ou [Windows](INSTALLATION-WINDOWS.md).
 
 Le bouton **Retour**, en haut à gauche, permet de revenir aux étapes précédentes en conservant vos saisies. Il est temporairement indisponible pendant l’envoi d’un réglage à l’appareil.
 

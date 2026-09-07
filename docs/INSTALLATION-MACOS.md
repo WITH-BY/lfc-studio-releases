@@ -9,7 +9,7 @@ Dans **Pomme → À propos de ce Mac**, regardez la ligne **Puce** ou **Processe
 | Puce Apple M1, M2, M3, M4 ou suivante | **Mac-Apple-Silicon.dmg**, ou un nom contenant **aarch64** |
 | Processeur Intel | **Mac-Intel.dmg**, ou un nom contenant **x64** et se terminant par **.dmg** |
 
-La candidate beta.13 prévoit les deux paquets séparés. Un paquet Intel n’est disponible qu’après son build sur Mac et son ajout à la page des versions ; les beta.8 à beta.12 n’en proposent pas.
+La beta.13 propose les deux téléchargements, Apple Silicon et Intel. Choisissez celui qui correspond à votre Mac. Le parcours de première utilisation décrit dans les guides accompagne la candidate beta.14.
 
 La configuration de l’application demande macOS 11 ou ultérieur. Prévoyez au moins 400 Mo pour l’application, plus de l’espace pour vos vidéos et leurs rendus. La compatibilité du paquet exact est indiquée dans ses notes de version.
 

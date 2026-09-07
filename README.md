@@ -7,12 +7,12 @@ Créez vos contenus pour les écrans LFC, prévisualisez-les, diffusez-les et pr
 <a id="telecharger"></a>
 ## Télécharger
 
-Les liens ci-dessous correspondent aux fichiers effectivement publiés, vérifiés le **7 septembre 2026**. La candidate beta.13 apporte le nouvel onboarding, la récupération hors ligne et la conservation des 60 fps ; elle est en préparation. Les guides décrivent cette candidate et peuvent différer des anciennes versions.
+Les liens ci-dessous correspondent aux fichiers effectivement publiés, vérifiés le **7 septembre 2026**. Les guides de première utilisation décrivent le parcours de la candidate **beta.14**, en préparation. Les écrans des versions proposées ci-dessous peuvent différer.
 
 | Votre ordinateur | Téléchargement disponible | Installation |
 | --- | --- | --- |
-| Mac avec puce Apple M1 ou suivante | [Mac Apple Silicon — beta.12](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.12/LIGHTFORMCOLOR-Studio_1.0.0-beta.12_aarch64.dmg) | [Guide Mac](docs/INSTALLATION-MACOS.md) |
-| Mac avec processeur Intel | Paquet beta.13 à construire et vérifier sur Mac avant publication | [Identifier votre Mac](docs/INSTALLATION-MACOS.md#choisir-le-bon-téléchargement) |
+| Mac avec puce Apple M1 ou suivante | [Mac Apple Silicon — beta.13](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.13/LIGHTFORMCOLOR-Studio-1.0.0-beta.13-Mac-Apple-Silicon.dmg) | [Guide Mac](docs/INSTALLATION-MACOS.md) |
+| Mac avec processeur Intel | [Mac Intel — beta.13](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.13/LIGHTFORMCOLOR-Studio-1.0.0-beta.13-Mac-Intel.dmg) | [Identifier votre Mac](docs/INSTALLATION-MACOS.md#choisir-le-bon-téléchargement) |
 | Windows avec processeur x64 | [Windows x64 — beta.8](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.8/LIGHTFORMCOLOR-Studio-1.0.0-beta.8-x64-setup.exe) | [Guide Windows](docs/INSTALLATION-WINDOWS.md) |
 
 Vous pouvez télécharger ces fichiers **sans compte GitHub**. Ce site héberge simplement les téléchargements et les guides du Studio.
@@ -49,6 +49,6 @@ Indiquez la version du Studio, Mac ou Windows, ce que vous essayiez de faire et 
 
 ## À propos de cette préversion
 
-Les notes de chaque version précisent les fonctions et les essais réalisés. Les paquets sans signature système peuvent demander une autorisation à l’ouverture, expliquée dans les guides. Le Live réel reste désactivé pendant sa qualification. Le build d’un installateur ne constitue pas un test du Wi-Fi ou des LED sur votre appareil.
+Les notes de chaque version présentent les nouveautés et les limites connues. Une autorisation peut être demandée à l’ouverture ; les guides d’installation expliquent les étapes. La diffusion Live n’est pas encore disponible.
 
 © WITH-BY

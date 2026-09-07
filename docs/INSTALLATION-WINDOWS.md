@@ -10,7 +10,7 @@ Prévoyez au moins **400 Mo** pour l’application, plus de l’espace pour vos 
 
 1. Ouvrez la [page de téléchargement](https://github.com/WITH-BY/lfc-studio-releases#telecharger).
 2. Cliquez sur le téléchargement **Windows x64**.
-3. Retrouvez dans **Téléchargements** un fichier ressemblant à **LIGHTFORMCOLOR-Studio-1.0.0-beta.13-x64-setup.exe**. Le numéro peut différer selon la version publiée.
+3. Retrouvez dans **Téléchargements** un fichier ressemblant à **LIGHTFORMCOLOR-Studio-1.0.0-beta.14-x64-setup.exe**. Le numéro peut différer selon la version publiée.
 
 Vous n’avez pas besoin d’un compte GitHub pour télécharger les fichiers publics. Si vous parcourez la [liste des versions](https://github.com/WITH-BY/lfc-studio-releases/releases), choisissez la plus récente qui propose un installateur Windows, puis ouvrez **Assets** pour afficher les fichiers. Certaines versions ne proposent qu’un paquet Mac.
 

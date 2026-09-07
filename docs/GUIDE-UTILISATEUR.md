@@ -7,7 +7,7 @@ Installation : [macOS](INSTALLATION-MACOS.md), [Windows](INSTALLATION-WINDOWS.md
 
 ---
 
-Commencez par **[Votre première utilisation](PREMIERS-PAS.md)** pour configurer le Wi-Fi de secours et découvrir le tutoriel. Ce guide décrit la candidate **1.0.0-beta.13** ; les versions précédentes peuvent différer.
+Commencez par **[Votre première utilisation](PREMIERS-PAS.md)** pour configurer le Wi-Fi de secours et découvrir le tutoriel. Ce guide décrit la candidate **1.0.0-beta.14** ; les versions précédentes peuvent différer.
 
 ## Organisation de l'application
 
