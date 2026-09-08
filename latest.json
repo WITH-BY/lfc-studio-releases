@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0-beta.14",
-  "notes": "Première connexion : retrouvez le nom et le mot de passe Wi-Fi sur l’écran du Tube. Si son réseau est introuvable, le Studio vous accompagne pour le relier par Ethernet.\n\nLe réseau local est vérifié avant le choix du nom et du Wi-Fi de secours. Un appareil déjà connecté est reconnu directement. Après un changement de réseau, le Studio recherche le Tube automatiquement et vous guide pour reconnecter l’ordinateur.\n\nLe bouton Retour permet de reprendre une étape en conservant vos saisies.\n\nLa visite guidée se place en bas à gauche, au-dessus des réglages. Ses consignes se concentrent sur les actions à découvrir.",
-  "pub_date": "2026-09-07T20:07:44.584Z",
+  "version": "1.0.0-beta.15",
+  "notes": "Nouvelle identité visuelle de l'application.\n\nPilotage des appareils LFC Device : luminosité, alimentation, lecture et retour au contenu local, selon les commandes que l'appareil déclare.\n\nLe catalogue de mise à jour ne propose que les paquets compatibles avec l'appareil, et sépare la préparation, l'activation et le retour arrière.\n\nUn import interrompu ne modifie plus la bibliothèque.\n\nLes projets sont conservés lors des reprises et des migrations.\n\nLes vidéos conservent leur cadence jusqu'à 60 images par seconde.\n\nConnexion au service Cloud de votre organisation, avec session conservée dans le coffre du système.\n\nAide à la première connexion et visite guidée du Studio.",
+  "pub_date": "2026-09-08T10:28:43.232Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINmJTV3ZzT0NMOERFVk5pNVhWaHZTUW9LL2VxUUZVM0o2TmZJR3RCV0VvV0I3emhmT2JHSC9CWFN4Sm8xYjZqeldCaXBtbDRWbTQvaTRyd09Uemt0ckFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODEwOTQwCWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKUWtTVUpVZGpUdGMvOVVNQ2cwUTdTUWlLUmRXQ1piUyt5ZnczeldpWUR4eW50ZGdZcUdpMEdsNXRmVHBMcGJTVG9wNEQrcnlhaXRTWWJUZGJHWmNQQkE9PQo=",
-      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.14/LIGHTFORMCOLOR-Studio_1.0.0-beta.14_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINmVHYUpTNHRPVWl4dWpuVEIvVUd0amxjTFBqNzNUS3BWNWlGUEY1UnJ1L09CN294TVJldXFZUTZ1RmcwNm5lbCt1ZW9KM3hEMklLNElTckgzL2ROZXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODYyNTk5CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKTWZDbERTTExpRUw5ZUtuaXlYSm9OM2RSZ0FZa3lEUEJCMW1PNE5DNTR1Nm05WEM1VFp3UDBCUDdsRC83REU5WXBlN1ROTDFKMGlIZWNQcXA4cjlJRGc9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.15/LIGHTFORMCOLOR-Studio_1.0.0-beta.15_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINmZsYW5peWZDYU9PK1ZJUEJvbmJwTWpUTGFBKzJ5clVPNG9jNTEvTHllaVpJbEMyWmRNSUFHRkR5VXRnT082NHJDVDcvTStTemUvTHBsZTdOWEMzWUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODExNTQwCWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKVFc1SFN5T3BNazYwL05XcTY5d0hoWmlOQVJtWXgxaE9oUldrYUtheVZNcks2RDROS083MmUvWTl5RXlMNE5NeUVDOEhPNHpUK01hV2VvWEhsTkhPQ2c9PQo=",
-      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.14/LIGHTFORMCOLOR-Studio_1.0.0-beta.14_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlFNVjVmUlNDazVLSDcvYUQvOHFCWGlpWDVpaW9LSi9idnpmUWIvZHhVL2x0TUEwSmhMb0lZa3oyYjZwejlpQmh5RmtscmNYeSt1VDY3blQxT2VLdVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODYzMTc5CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKQzkvaUVRdk00MzN3bzVkTXRQYXluZnRYWUJRbkJ1WnJSbldmcWhQdHV1RkJiV1BqUzV2VWhXWldtY1pEVmI0Z3I2UU1EY0VUY21hYjZuNWMrRWhiQWc9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.15/LIGHTFORMCOLOR-Studio_1.0.0-beta.15_x64.app.tar.gz"
     }
   }
 }
