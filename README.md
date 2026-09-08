@@ -10,6 +10,10 @@ diffusion et programmation.
 **[Télécharger](../../releases)** la version la plus récente, en haut de la
 liste.
 
+Version **1.0.1-beta** : [Windows x64](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.1-beta/LIGHTFORMCOLOR-Studio-1.0.1-beta-x64-setup.exe),
+[Mac Apple Silicon](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.1-beta/LIGHTFORMCOLOR-Studio-1.0.1-beta-Mac-Apple-Silicon.dmg),
+[Mac Intel](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.1-beta/LIGHTFORMCOLOR-Studio-1.0.1-beta-Mac-Intel.dmg).
+
 - [Installation sur macOS](docs/INSTALLATION-MACOS.md)
 - [Installation sur Windows](docs/INSTALLATION-WINDOWS.md)
 
@@ -27,7 +31,7 @@ laquelle aucun écran n'est détecté.
 
 ## Compatibilité
 
-macOS 11 ou ultérieur, Mac à puce Apple.
+macOS 11 ou ultérieur, Mac à puce Apple ou Intel.
 Windows 10 version 1809 ou ultérieur, 64 bits.
 
 ## État du produit

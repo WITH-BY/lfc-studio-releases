@@ -12,6 +12,11 @@ Pour vérifier : **Paramètres**, **Système**, **Informations système**. La li
 Ouvrez la [page des versions](https://github.com/WITH-BY/lfc-studio-releases/releases)
 et sélectionnez la version la plus récente proposant un fichier Windows.
 
+Pour **1.0.1-beta**, téléchargez
+[LIGHTFORMCOLOR-Studio-1.0.1-beta-x64-setup.exe](https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.1-beta/LIGHTFORMCOLOR-Studio-1.0.1-beta-x64-setup.exe).
+Les fichiers `.sig`, les empreintes et les archives de code source ne sont pas
+des installateurs.
+
 Le navigateur peut signaler un fichier rarement téléchargé. Choisissez
 **Conserver**.
 
@@ -43,11 +48,14 @@ l'application.
 
 ## Mises à jour
 
-Téléchargez la nouvelle version et exécutez l'installateur. Les contenus,
+Quittez le Studio, téléchargez la nouvelle version et exécutez l'installateur. Les contenus,
 appareils et plannings sont conservés.
 
-La mise à jour automatique est disponible sur macOS. Elle est en cours de
-développement pour Windows.
+La version Windows **1.0.1-beta** est disponible en installation manuelle.
+Son activation dans la mise à jour automatique attend la signature du paquet
+sur le poste Mac qui conserve la clé de mise à jour, puis l'ouverture du canal
+dans une prochaine version du Studio. Cette version devra être installée
+manuellement avant de pouvoir recevoir les mises à jour automatiques suivantes.
 
 ## Désinstallation
 
