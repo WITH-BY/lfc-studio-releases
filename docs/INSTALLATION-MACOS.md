@@ -2,17 +2,18 @@
 
 ## Configuration requise
 
-Mac équipé d'une puce Apple, M1 ou ultérieure. macOS 11 Big Sur ou version
-ultérieure. 300 Mo d'espace disque.
+Mac équipé d'une puce Apple (M1 ou ultérieure) ou d'un processeur Intel.
+macOS 11 Big Sur ou version ultérieure. 300 Mo d'espace disque.
 
-Pour vérifier : menu Pomme, **À propos de ce Mac**. La ligne « Puce » doit
-indiquer Apple M1, M2, M3, M4 ou ultérieur. Le Studio n'est pas compatible avec
-les Mac Intel.
+Pour choisir la bonne version : menu Pomme, **À propos de ce Mac**. Si la
+ligne « Puce » indique une puce Apple, choisissez **Mac Apple Silicon**.
+Si la ligne « Processeur » indique Intel, choisissez **Mac Intel**.
 
 ## Téléchargement
 
 Ouvrez la [page des versions](https://github.com/WITH-BY/lfc-studio-releases/releases),
-sélectionnez la version la plus récente et téléchargez le fichier `.dmg`.
+sélectionnez la version la plus récente et téléchargez le fichier `.dmg`
+correspondant à votre Mac : **Mac-Apple-Silicon.dmg** ou **Mac-Intel.dmg**.
 
 ## Installation
 
@@ -21,25 +22,39 @@ raccourci **Applications**. Le volume monté peut ensuite être éjecté.
 
 ## Premier lancement
 
-macOS bloque l'ouverture au premier lancement, l'application n'étant pas encore
-enregistrée auprès d'Apple. L'autorisation se donne une seule fois.
+Cette bêta est distribuée directement, en dehors du Mac App Store. Si macOS
+indique au premier lancement qu'il ne peut pas vérifier le développeur ou
+authentifier l'application téléchargée depuis notre page officielle,
+autorisez son ouverture en suivant ces étapes :
 
-1. Dans **Applications**, ouvrez **LIGHTFORMCOLOR Studio**. Validez le message
-   affiché.
+1. Dans **Applications**, essayez d'ouvrir **LIGHTFORMCOLOR Studio**, puis
+   fermez le message qui bloque son ouverture.
 2. Ouvrez **Réglages Système**, puis **Confidentialité et sécurité**.
 3. Dans la section **Sécurité**, une ligne mentionne LIGHTFORMCOLOR Studio.
-4. Cliquez **Ouvrir quand même** et confirmez.
+4. Cliquez **Ouvrir quand même**, puis **Ouvrir**. Saisissez votre mot de
+   passe si macOS le demande.
 
-Les lancements suivants sont directs.
+Cette autorisation est mémorisée pour les lancements suivants. La procédure
+est également décrite dans l'[assistance Apple](https://support.apple.com/fr-fr/102445).
 
 ## Autorisation réseau
 
-Au premier démarrage, macOS demande l'autorisation d'accéder aux appareils du
-réseau local. Cette autorisation est nécessaire : sans elle, le Studio ne
-détecte aucun écran.
+Lorsque macOS demande l'autorisation d'accéder aux appareils du réseau local,
+cliquez **Autoriser**. Cette autorisation permet au Studio de détecter vos
+appareils LFC et de communiquer avec eux.
 
 Pour la rétablir : **Réglages Système**, **Confidentialité et sécurité**,
 **Réseau local**. Activez LIGHTFORMCOLOR Studio et relancez l'application.
+Ce réglage est disponible sur les versions récentes de macOS ; voir
+l'[assistance Apple](https://support.apple.com/fr-fr/guide/mac-help/mchla4f49138/mac).
+
+## Accès aux fichiers
+
+Lors de l'import de vos images et vidéos, autorisez l'accès aux dossiers que
+vous souhaitez utiliser. En cas de refus, ouvrez **Réglages Système**,
+**Confidentialité et sécurité**, **Fichiers et dossiers**, puis activez les
+dossiers nécessaires pour LIGHTFORMCOLOR Studio. Voir
+l'[assistance Apple](https://support.apple.com/fr-fr/guide/mac-help/mchld5a35146/mac).
 
 ## Mises à jour
 

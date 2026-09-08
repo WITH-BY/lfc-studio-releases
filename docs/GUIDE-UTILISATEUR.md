@@ -17,7 +17,7 @@ effectue le redimensionnement, la conversion vidéo, l'envoi et la lecture.
 | Accueil | État des appareils, allumage et extinction, application des changements en attente |
 | Contenus | Import des images et vidéos, création des compositions, classement |
 | Planning | Programmation par jour et par horaire, plages d'extinction |
-| Live | Déclenchement de séquences préparées |
+| Live | En développement, aperçu en mode démonstration |
 | Appareils | Ajout, dénomination, regroupement |
 | Réglages | Langue, thème, sauvegarde |
 
@@ -205,15 +205,13 @@ maintenant** les met à jour dès qu'ils répondent.
 
 ## Live
 
-L'onglet **Live** prépare des séquences chargées à l'avance sur plusieurs
-appareils, déclenchées au moment voulu.
+Le player **Live** est encore en développement. Dans la version 1.0.1-beta,
+son interface est accessible uniquement en mode démonstration. Le pilotage
+Live d'appareils réels n'est pas disponible.
 
-Cette fonction est en cours de qualification. Le déclenchement est coordonné par
-le réseau, sans garantie de simultanéité au centième de seconde. Elle n'est pas
-encore recommandée pour la régie d'un événement.
-
-Un appareil réservé au Live refuse les diffusions manuelles tant que son
-planning n'a pas été restauré depuis cet onglet.
+Cette fonction vise à préparer des séquences sur plusieurs appareils pour
+les déclencher au moment voulu. Sa disponibilité sera annoncée après
+qualification.
 
 ---
 
