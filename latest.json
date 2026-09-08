@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0-beta.15",
-  "notes": "Nouvelle identité visuelle de l'application.\n\nPilotage des appareils LFC Device : luminosité, alimentation, lecture et retour au contenu local, selon les commandes que l'appareil déclare.\n\nLe catalogue de mise à jour ne propose que les paquets compatibles avec l'appareil, et sépare la préparation, l'activation et le retour arrière.\n\nUn import interrompu ne modifie plus la bibliothèque.\n\nLes projets sont conservés lors des reprises et des migrations.\n\nLes vidéos conservent leur cadence jusqu'à 60 images par seconde.\n\nConnexion au service Cloud de votre organisation, avec session conservée dans le coffre du système.\n\nAide à la première connexion et visite guidée du Studio.",
-  "pub_date": "2026-09-08T10:28:43.232Z",
+  "version": "1.0.1-beta",
+  "notes": "Oublier le réseau Wi-Fi d'un appareil efface réellement le réseau enregistré, au lieu de laisser l'appareil l'afficher encore.\n\nLa surface de l'appareil passe au noir dès qu'il est enregistré, ses informations de première connexion n'ayant plus lieu d'être affichées.\n\nL'étape de connexion au réseau du lieu ne renvoie plus à l'écran de l'appareil, devenu noir à cette étape.",
+  "pub_date": "2026-09-08T15:19:48.782Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINmVHYUpTNHRPVWl4dWpuVEIvVUd0amxjTFBqNzNUS3BWNWlGUEY1UnJ1L09CN294TVJldXFZUTZ1RmcwNm5lbCt1ZW9KM3hEMklLNElTckgzL2ROZXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODYyNTk5CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKTWZDbERTTExpRUw5ZUtuaXlYSm9OM2RSZ0FZa3lEUEJCMW1PNE5DNTR1Nm05WEM1VFp3UDBCUDdsRC83REU5WXBlN1ROTDFKMGlIZWNQcXA4cjlJRGc9PQo=",
-      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.15/LIGHTFORMCOLOR-Studio_1.0.0-beta.15_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlVTaWRTMkwvS1RhTzBOZXFreWY5UmJOZHluV3BYVE1VZWs2blYzM3FDZXc2c2p5RmpVVTBBU1pTWUVtcEROeGttd0hDTGdwaURnZUlhT3BUODMrd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODc5NDU1CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKdTdrbmJCQjQwdms1V3BWTjZZU2J0UThwMnhwRkZ0SkNzRDErV0czMDBFMlA2aitmUGdXSUl4emNHY2gwYXJjNVg2dHV0U1BpaFdDQ2JTSEJSNzVJQ1E9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.1-beta/LIGHTFORMCOLOR-Studio_1.0.1-beta_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlFNVjVmUlNDazVLSDcvYUQvOHFCWGlpWDVpaW9LSi9idnpmUWIvZHhVL2x0TUEwSmhMb0lZa3oyYjZwejlpQmh5RmtscmNYeSt1VDY3blQxT2VLdVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODYzMTc5CWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKQzkvaUVRdk00MzN3bzVkTXRQYXluZnRYWUJRbkJ1WnJSbldmcWhQdHV1RkJiV1BqUzV2VWhXWldtY1pEVmI0Z3I2UU1EY0VUY21hYjZuNWMrRWhiQWc9PQo=",
-      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.0-beta.15/LIGHTFORMCOLOR-Studio_1.0.0-beta.15_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdTBlUnB4RDZINlRiYzRCQlpEZ3lTTUhyK2p0SnYwSHFLV0VtU3UrYlE4RzEzTDlKdmhaWlg3VjE0TXVoWG9MVE4zRzBabTB0UUZTazQ1TGxYdHc3K2ZYbStrcEZGdWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgwNjQzCWZpbGU6TElHSFRGT1JNQ09MT1IgU3R1ZGlvLmFwcC50YXIuZ3oKeHB2cnZLOTJERkp2TUZtMlMyQmY3Nm43bUl1SU16Um9KQWV6S0pZTVJjbGxCdU44Nm56TjR0QWF3MHIyU3ZFME81cEUwNldpY01lRThlbThhWlliQ0E9PQo=",
+      "url": "https://github.com/WITH-BY/lfc-studio-releases/releases/download/v1.0.1-beta/LIGHTFORMCOLOR-Studio_1.0.1-beta_x64.app.tar.gz"
     }
   }
 }
